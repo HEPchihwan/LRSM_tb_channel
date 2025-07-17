@@ -1,0 +1,15 @@
+executable = /data6/Users/achihwan/LRSM_tb_channel/SAMPLEPRODUCTION/using_matrix/condor/bkg/condorfile/job_EGamma_C.sh
+log = /data6/Users/achihwan/LRSM_tb_channel/SAMPLEPRODUCTION/using_matrix/condor/bkg/condorfile/log/EGamma_C.log
+output = /data6/Users/achihwan/LRSM_tb_channel/SAMPLEPRODUCTION/using_matrix/condor/bkg/condorfile/out/EGamma_C.log
+error = /data6/Users/achihwan/LRSM_tb_channel/SAMPLEPRODUCTION/using_matrix/condor/bkg/condorfile/err/EGamma_C.err
+getenv = True
+should_transfer_files = yes
+RequestCpus = 2
+RequestMemory = 16000
+Transfer_Input_Files = /data6/Users/achihwan/LRSM_tb_channel/SAMPLEPRODUCTION/using_matrix/background/ForSNU/EGamma_C.json , /data6/Users/achihwan/LRSM_tb_channel/SAMPLEPRODUCTION/using_matrix/condor/bkg/scripts/run_EGamma_C.py,/data6/Users/achihwan/conda/hepenv.tar.gz
+transfer_output_files = result_EGamma_C
+queue 
+
+
+
+

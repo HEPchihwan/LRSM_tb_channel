@@ -1,0 +1,19 @@
+Processing ROOT files:   0%|          | 0/26 [00:00<?, ?it/s]Processing ROOT files:   0%|          | 0/26 [00:01<?, ?it/s]
+Traceback (most recent call last):
+  File "/var/lib/condor/execute/dir_1028183/run_Tau_D.py", line 464, in <module>
+    res = compute_expected_events(info, iter_allfile, lumi)
+  File "/var/lib/condor/execute/dir_1028183/run_Tau_D.py", line 427, in compute_expected_events
+    Npass = iter_allfile(base_dir)
+  File "/var/lib/condor/execute/dir_1028183/run_Tau_D.py", line 368, in iter_allfile
+    combined_p4, mN, mu1_pt, mu2_pt,lt,lb, mll,lmi,lmh,smi,smh,totalev , leftev ,hltpassev, sorted_btaggedb_cleaned = ak8ak4(sample)
+  File "/var/lib/condor/execute/dir_1028183/run_Tau_D.py", line 132, in ak8ak4
+    lhe_pdgid = events["LHEPart_pdgId"].array()
+  File "/var/lib/condor/execute/dir_1028183/lib/python3.10/site-packages/uproot/behaviors/TBranch.py", line 1724, in __getitem__
+    raise uproot.KeyInFileError(
+uproot.exceptions.KeyInFileError: not found: 'LHEPart_pdgId'
+
+    Available keys: 'LowPtElectron_pdgId', 'L1_BptxOR', 'L1_ETM120', 'L1_ETM150', 'L1_HTT120er', 'L1_HTT160er', 'L1_HTT200er', 'L1_HTT255er', 'L1_HTT280er', 'L1_HTT320er', 'L1_HTT360er', 'L1_HTT400er', 'L1_HTT450er', 'L1Reco_step'...
+
+in file /gv0/DATA/SKNano/Run3NanoAODv12/2022/DATA/Tau/PeriodD/240724_131122/0000/tree_1.root
+in object /Events;1
+cp: cannot stat '*.png': No such file or directory

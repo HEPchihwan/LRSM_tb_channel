@@ -1,0 +1,1323 @@
+000 (1246641.000.000) 2025-07-17 16:10:36 Job submitted from host: <172.30.1.200:9618?addrs=172.30.1.200-9618&alias=tamsa2&noUDP&sock=schedd_2531_a24a>
+...
+040 (1246641.000.000) 2025-07-17 16:10:40 Started transferring input files
+	Transferring to host: <172.30.1.207:9618?addrs=172.30.1.207-9618&alias=node-w7.localdomain&noUDP&sock=slot1_7_4978_3384_38187>
+...
+001 (1246641.000.000) 2025-07-17 16:10:40 Job executing on host: <172.30.1.207:9618?addrs=172.30.1.207-9618&alias=node-w7.localdomain&noUDP&sock=startd_4944_c052>
+	SlotName: slot1_7@node-w7.localdomain
+	CondorScratchDir = "/var/lib/condor/execute/dir_2116859"
+	Cpus = 2
+	Disk = 2048
+	GPUs = 0
+	Memory = 16000
+...
+040 (1246641.000.000) 2025-07-17 16:10:40 Finished transferring input files
+...
+021 (1246641.000.000) 2025-07-17 16:10:41 Error from starter on slot1_7@node-w7.localdomain:
+	Failed to execute '/var/lib/condor/execute/dir_2116859/run_EGamma_D.py': (errno=8: 'Exec format error')
+	Code 6 Subcode 8
+...
+004 (1246641.000.000) 2025-07-17 16:10:41 Job was evicted.
+	(0) CPU times
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	30543  -  Run Bytes Received By Job
+	Error from slot1_7@node-w7.localdomain: Failed to execute '/var/lib/condor/execute/dir_2116859/run_EGamma_D.py': (errno=8: 'Exec format error')
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 2         2 
+	   Disk (KB)            :       32       32      2048 
+	   GPUs                 :                           0 
+	   Memory (MB)          :             16000     16000 
+	   TimeSlotBusy (s)     :        1                    
+...
+012 (1246641.000.000) 2025-07-17 16:10:41 Job was held.
+	Error from slot1_7@node-w7.localdomain: Failed to execute '/var/lib/condor/execute/dir_2116859/run_EGamma_D.py': (errno=8: 'Exec format error')
+	Code 6 Subcode 8
+...
+009 (1246641.000.000) 2025-07-17 16:11:55 Job was aborted.
+	via condor_rm (by user achihwan)
+...
+000 (1246694.000.000) 2025-07-17 16:14:08 Job submitted from host: <172.30.1.200:9618?addrs=172.30.1.200-9618&alias=tamsa2&noUDP&sock=schedd_2531_a24a>
+...
+040 (1246694.000.000) 2025-07-17 16:14:23 Started transferring input files
+	Transferring to host: <172.30.1.211:9618?addrs=172.30.1.211-9618&alias=node-w11.localdomain&noUDP&sock=slot1_6_4969_dc23_57552>
+...
+001 (1246694.000.000) 2025-07-17 16:14:23 Job executing on host: <172.30.1.211:9618?addrs=172.30.1.211-9618&alias=node-w11.localdomain&noUDP&sock=startd_4935_93f7>
+	SlotName: slot1_6@node-w11.localdomain
+	CondorScratchDir = "/var/lib/condor/execute/dir_341117"
+	Cpus = 2
+	Disk = 2048
+	GPUs = 0
+	Memory = 16000
+...
+040 (1246694.000.000) 2025-07-17 16:14:23 Finished transferring input files
+...
+021 (1246694.000.000) 2025-07-17 16:14:28 Error from starter on slot1_6@node-w11.localdomain:
+	Failed to execute '/var/lib/condor/execute/dir_341117/run_EGamma_D.py' with arguments python *.py: (errno=8: 'Exec format error')
+	Code 6 Subcode 8
+...
+004 (1246694.000.000) 2025-07-17 16:14:28 Job was evicted.
+	(0) CPU times
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	30543  -  Run Bytes Received By Job
+	Error from slot1_6@node-w11.localdomain: Failed to execute '/var/lib/condor/execute/dir_341117/run_EGamma_D.py' with arguments python *.py: (errno=8: 'Exec format error')
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 2         2 
+	   Disk (KB)            :       32       32      2048 
+	   GPUs                 :                           0 
+	   Memory (MB)          :             16000     16000 
+	   TimeSlotBusy (s)     :        5                    
+...
+012 (1246694.000.000) 2025-07-17 16:14:28 Job was held.
+	Error from slot1_6@node-w11.localdomain: Failed to execute '/var/lib/condor/execute/dir_341117/run_EGamma_D.py' with arguments python *.py: (errno=8: 'Exec format error')
+	Code 6 Subcode 8
+...
+009 (1246694.000.000) 2025-07-17 16:16:03 Job was aborted.
+	via condor_rm (by user achihwan)
+...
+000 (1247394.000.000) 2025-07-17 16:30:16 Job submitted from host: <172.30.1.200:9618?addrs=172.30.1.200-9618&alias=tamsa2&noUDP&sock=schedd_2531_a24a>
+...
+040 (1247394.000.000) 2025-07-17 16:30:36 Started transferring input files
+	Transferring to host: <172.30.1.105:9618?addrs=172.30.1.105-9618&alias=node-g5.localdomain&noUDP&sock=slot1_1_5280_fcd0_13870>
+...
+001 (1247394.000.000) 2025-07-17 16:30:36 Job executing on host: <172.30.1.105:9618?addrs=172.30.1.105-9618&alias=node-g5.localdomain&noUDP&sock=startd_5246_e5ec>
+	SlotName: slot1_1@node-g5.localdomain
+	CondorScratchDir = "/var/lib/condor/execute/dir_2567271"
+	Cpus = 2
+	Disk = 2048
+	GPUs = 0
+	Memory = 16000
+...
+040 (1247394.000.000) 2025-07-17 16:30:36 Finished transferring input files
+...
+006 (1247394.000.000) 2025-07-17 16:30:41 Image size of job updated: 108
+	1  -  MemoryUsage of job (MB)
+	4  -  ResidentSetSize of job (KB)
+...
+040 (1247394.000.000) 2025-07-17 16:30:41 Started transferring output files
+...
+040 (1247394.000.000) 2025-07-17 16:30:41 Finished transferring output files
+...
+021 (1247394.000.000) 2025-07-17 16:30:41 Error from starter on slot1_1@node-g5.localdomain:
+	STARTER at 172.30.1.105 failed to send file(s) to <172.30.1.200:9618>: |Error: reading from file /var/lib/condor/execute/dir_2567271/*.png: (errno 2) No such file or directory; SHADOW failed to receive file(s) from <172.30.1.105:36273>
+	Code 13 Subcode 2
+...
+004 (1247394.000.000) 2025-07-17 16:30:41 Job was evicted.
+	(0) CPU times
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	133  -  Run Bytes Sent By Job
+	30589  -  Run Bytes Received By Job
+	Transfer output files failure at execution point slot1_1@node-g5.localdomain while sending files to access point tamsa2. Details: reading from file /var/lib/condor/execute/dir_2567271/*.png: (errno 2) No such file or directory
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0        2         2 
+	   Disk (KB)            :       53       32      2048 
+	   GPUs                 :                           0 
+	   Memory (MB)          :        1    16000     16000 
+	   TimeExecute (s)      :        5                    
+	   TimeSlotBusy (s)     :        5                    
+...
+012 (1247394.000.000) 2025-07-17 16:30:41 Job was held.
+	Transfer output files failure at execution point slot1_1@node-g5.localdomain while sending files to access point tamsa2. Details: reading from file /var/lib/condor/execute/dir_2567271/*.png: (errno 2) No such file or directory
+	Code 12 Subcode 2
+...
+009 (1247394.000.000) 2025-07-17 16:32:04 Job was aborted.
+	via condor_rm (by user achihwan)
+
+	Job terminated by itself at 2025-07-17T07:30:41Z (using method 0: OF_ITS_OWN_ACCORD).
+...
+000 (1247454.000.000) 2025-07-17 16:32:09 Job submitted from host: <172.30.1.200:9618?addrs=172.30.1.200-9618&alias=tamsa2&noUDP&sock=schedd_2531_a24a>
+...
+040 (1247454.000.000) 2025-07-17 16:32:29 Started transferring input files
+	Transferring to host: <172.30.1.110:9618?addrs=172.30.1.110-9618&alias=node-g10.localdomain&noUDP&sock=slot1_6_6414_fe3e_19786>
+...
+040 (1247454.000.000) 2025-07-17 16:32:29 Finished transferring input files
+...
+001 (1247454.000.000) 2025-07-17 16:32:29 Job executing on host: <172.30.1.110:9618?addrs=172.30.1.110-9618&alias=node-g10.localdomain&noUDP&sock=startd_6380_ba51>
+	SlotName: slot1_6@node-g10.localdomain
+	CondorScratchDir = "/var/lib/condor/execute/dir_3257156"
+	Cpus = 2
+	Disk = 2048
+	GPUs = 0
+	Memory = 16000
+...
+006 (1247454.000.000) 2025-07-17 16:32:34 Image size of job updated: 108
+	1  -  MemoryUsage of job (MB)
+	4  -  ResidentSetSize of job (KB)
+...
+040 (1247454.000.000) 2025-07-17 16:32:34 Started transferring output files
+...
+040 (1247454.000.000) 2025-07-17 16:32:34 Finished transferring output files
+...
+021 (1247454.000.000) 2025-07-17 16:32:34 Error from starter on slot1_6@node-g10.localdomain:
+	STARTER at 172.30.1.110 failed to send file(s) to <172.30.1.200:9618>: |Error: reading from file /var/lib/condor/execute/dir_3257156/*.png: (errno 2) No such file or directory; SHADOW failed to receive file(s) from <172.30.1.110:43409>
+	Code 13 Subcode 2
+...
+004 (1247454.000.000) 2025-07-17 16:32:35 Job was evicted.
+	(0) CPU times
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	111  -  Run Bytes Sent By Job
+	30578  -  Run Bytes Received By Job
+	Transfer output files failure at execution point slot1_6@node-g10.localdomain while sending files to access point tamsa2. Details: reading from file /var/lib/condor/execute/dir_3257156/*.png: (errno 2) No such file or directory
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0        2         2 
+	   Disk (KB)            :       53       32      2048 
+	   GPUs                 :                           0 
+	   Memory (MB)          :        1    16000     16000 
+	   TimeExecute (s)      :        5                    
+	   TimeSlotBusy (s)     :        5                    
+...
+012 (1247454.000.000) 2025-07-17 16:32:35 Job was held.
+	Transfer output files failure at execution point slot1_6@node-g10.localdomain while sending files to access point tamsa2. Details: reading from file /var/lib/condor/execute/dir_3257156/*.png: (errno 2) No such file or directory
+	Code 12 Subcode 2
+...
+009 (1247454.000.000) 2025-07-17 16:36:30 Job was aborted.
+	via condor_rm (by user achihwan)
+
+	Job terminated by itself at 2025-07-17T07:32:34Z (using method 0: OF_ITS_OWN_ACCORD).
+...
+000 (1247514.000.000) 2025-07-17 16:36:35 Job submitted from host: <172.30.1.200:9618?addrs=172.30.1.200-9618&alias=tamsa2&noUDP&sock=schedd_2531_a24a>
+...
+040 (1247514.000.000) 2025-07-17 16:36:55 Started transferring input files
+	Transferring to host: <172.30.1.206:9618?addrs=172.30.1.206-9618&alias=node-w6.localdomain&noUDP&sock=slot1_3_4969_dc23_29383>
+...
+001 (1247514.000.000) 2025-07-17 16:36:55 Job executing on host: <172.30.1.206:9618?addrs=172.30.1.206-9618&alias=node-w6.localdomain&noUDP&sock=startd_4935_93f7>
+	SlotName: slot1_3@node-w6.localdomain
+	CondorScratchDir = "/var/lib/condor/execute/dir_431104"
+	Cpus = 2
+	Disk = 2048
+	GPUs = 0
+	Memory = 16000
+...
+040 (1247514.000.000) 2025-07-17 16:36:55 Finished transferring input files
+...
+006 (1247514.000.000) 2025-07-17 16:37:00 Image size of job updated: 100
+	1  -  MemoryUsage of job (MB)
+	8  -  ResidentSetSize of job (KB)
+...
+040 (1247514.000.000) 2025-07-17 16:37:00 Started transferring output files
+...
+040 (1247514.000.000) 2025-07-17 16:37:00 Finished transferring output files
+...
+021 (1247514.000.000) 2025-07-17 16:37:00 Error from starter on slot1_3@node-w6.localdomain:
+	STARTER at 172.30.1.206 failed to send file(s) to <172.30.1.200:9618>: |Error: reading from file /var/lib/condor/execute/dir_431104/*.png: (errno 2) No such file or directory; SHADOW failed to receive file(s) from <172.30.1.206:39017>
+	Code 13 Subcode 2
+...
+004 (1247514.000.000) 2025-07-17 16:37:00 Job was evicted.
+	(0) CPU times
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	194  -  Run Bytes Sent By Job
+	30582  -  Run Bytes Received By Job
+	Transfer output files failure at execution point slot1_3@node-w6.localdomain while sending files to access point tamsa2. Details: reading from file /var/lib/condor/execute/dir_431104/*.png: (errno 2) No such file or directory
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0        2         2 
+	   Disk (KB)            :       53       32      2048 
+	   GPUs                 :                           0 
+	   Memory (MB)          :        1    16000     16000 
+	   TimeExecute (s)      :        5                    
+	   TimeSlotBusy (s)     :        5                    
+...
+012 (1247514.000.000) 2025-07-17 16:37:01 Job was held.
+	Transfer output files failure at execution point slot1_3@node-w6.localdomain while sending files to access point tamsa2. Details: reading from file /var/lib/condor/execute/dir_431104/*.png: (errno 2) No such file or directory
+	Code 12 Subcode 2
+...
+009 (1247514.000.000) 2025-07-17 16:38:09 Job was aborted.
+	via condor_rm (by user achihwan)
+
+	Job terminated by itself at 2025-07-17T07:37:00Z (using method 0: OF_ITS_OWN_ACCORD).
+...
+000 (1247573.000.000) 2025-07-17 16:38:17 Job submitted from host: <172.30.1.200:9618?addrs=172.30.1.200-9618&alias=tamsa2&noUDP&sock=schedd_2531_a24a>
+...
+040 (1247573.000.000) 2025-07-17 16:39:38 Started transferring input files
+	Transferring to host: <172.30.1.220:9618?addrs=172.30.1.220-9618&alias=node-w20.localdomain&noUDP&sock=slot1_11_5233_df2e_134523>
+...
+040 (1247573.000.000) 2025-07-17 16:39:38 Finished transferring input files
+...
+001 (1247573.000.000) 2025-07-17 16:39:38 Job executing on host: <172.30.1.220:9618?addrs=172.30.1.220-9618&alias=node-w20.localdomain&noUDP&sock=startd_5199_a8f8>
+	SlotName: slot1_11@node-w20.localdomain
+	CondorScratchDir = "/var/lib/condor/execute/dir_3074372"
+	Cpus = 2
+	Disk = 2048
+	GPUs = 0
+	Memory = 16000
+...
+006 (1247573.000.000) 2025-07-17 16:39:43 Image size of job updated: 184
+	1  -  MemoryUsage of job (MB)
+	8  -  ResidentSetSize of job (KB)
+...
+040 (1247573.000.000) 2025-07-17 16:39:43 Started transferring output files
+...
+040 (1247573.000.000) 2025-07-17 16:39:43 Finished transferring output files
+...
+021 (1247573.000.000) 2025-07-17 16:39:43 Error from starter on slot1_11@node-w20.localdomain:
+	STARTER at 172.30.1.220 failed to send file(s) to <172.30.1.200:9618>: |Error: reading from file /var/lib/condor/execute/dir_3074372/*.png: (errno 2) No such file or directory; SHADOW failed to receive file(s) from <172.30.1.220:40889>
+	Code 13 Subcode 2
+...
+004 (1247573.000.000) 2025-07-17 16:39:43 Job was evicted.
+	(0) CPU times
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	265  -  Run Bytes Sent By Job
+	30586  -  Run Bytes Received By Job
+	Transfer output files failure at execution point slot1_11@node-w20.localdomain while sending files to access point tamsa2. Details: reading from file /var/lib/condor/execute/dir_3074372/*.png: (errno 2) No such file or directory
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0        2         2 
+	   Disk (KB)            :       53       32      2048 
+	   GPUs                 :                           0 
+	   Memory (MB)          :        1    16000     16000 
+	   TimeExecute (s)      :        5                    
+	   TimeSlotBusy (s)     :        5                    
+...
+012 (1247573.000.000) 2025-07-17 16:39:43 Job was held.
+	Transfer output files failure at execution point slot1_11@node-w20.localdomain while sending files to access point tamsa2. Details: reading from file /var/lib/condor/execute/dir_3074372/*.png: (errno 2) No such file or directory
+	Code 12 Subcode 2
+...
+009 (1247573.000.000) 2025-07-17 16:41:20 Job was aborted.
+	via condor_rm (by user achihwan)
+
+	Job terminated by itself at 2025-07-17T07:39:43Z (using method 0: OF_ITS_OWN_ACCORD).
+...
+000 (1247635.000.000) 2025-07-17 16:51:13 Job submitted from host: <172.30.1.200:9618?addrs=172.30.1.200-9618&alias=tamsa2&noUDP&sock=schedd_2531_a24a>
+...
+040 (1247635.000.000) 2025-07-17 16:51:36 Started transferring input files
+	Transferring to host: <172.30.1.208:9618?addrs=172.30.1.208-9618&alias=node-w8.localdomain&noUDP&sock=slot1_4_4971_44e3_56675>
+...
+040 (1247635.000.000) 2025-07-17 16:51:38 Finished transferring input files
+...
+001 (1247635.000.000) 2025-07-17 16:51:38 Job executing on host: <172.30.1.208:9618?addrs=172.30.1.208-9618&alias=node-w8.localdomain&noUDP&sock=startd_4937_f328>
+	SlotName: slot1_4@node-w8.localdomain
+	CondorScratchDir = "/var/lib/condor/execute/dir_1004303"
+	Cpus = 2
+	Disk = 751616
+	GPUs = 0
+	Memory = 16000
+...
+006 (1247635.000.000) 2025-07-17 16:51:52 Image size of job updated: 1142408
+	1116  -  MemoryUsage of job (MB)
+	1142408  -  ResidentSetSize of job (KB)
+...
+006 (1247635.000.000) 2025-07-17 16:52:01 Image size of job updated: 2199792
+	2149  -  MemoryUsage of job (MB)
+	2199792  -  ResidentSetSize of job (KB)
+...
+040 (1247635.000.000) 2025-07-17 16:52:01 Started transferring output files
+...
+040 (1247635.000.000) 2025-07-17 16:52:01 Finished transferring output files
+...
+021 (1247635.000.000) 2025-07-17 16:52:01 Error from starter on slot1_4@node-w8.localdomain:
+	STARTER at 172.30.1.208 failed to send file(s) to <172.30.1.200:9618>: |Error: reading from file /var/lib/condor/execute/dir_1004303/*.png: (errno 2) No such file or directory; SHADOW failed to receive file(s) from <172.30.1.208:41105>
+	Code 13 Subcode 2
+...
+004 (1247635.000.000) 2025-07-17 16:52:01 Job was evicted.
+	(0) CPU times
+		Usr 0 00:00:16, Sys 0 00:00:02  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	597  -  Run Bytes Sent By Job
+	690287488  -  Run Bytes Received By Job
+	Transfer output files failure at execution point slot1_4@node-w8.localdomain while sending files to access point tamsa2. Details: reading from file /var/lib/condor/execute/dir_1004303/*.png: (errno 2) No such file or directory
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0        2         2 
+	   Disk (KB)            :  2774360   750000    751616 
+	   GPUs                 :                           0 
+	   Memory (MB)          :     2149    16000     16000 
+	   TimeExecute (s)      :       23                    
+	   TimeSlotBusy (s)     :       28                    
+...
+012 (1247635.000.000) 2025-07-17 16:52:01 Job was held.
+	Transfer output files failure at execution point slot1_4@node-w8.localdomain while sending files to access point tamsa2. Details: reading from file /var/lib/condor/execute/dir_1004303/*.png: (errno 2) No such file or directory
+	Code 12 Subcode 2
+...
+009 (1247635.000.000) 2025-07-17 17:02:33 Job was aborted.
+	via condor_rm (by user achihwan)
+
+	Job terminated by itself at 2025-07-17T07:52:01Z (using method 0: OF_ITS_OWN_ACCORD).
+...
+000 (1247696.000.000) 2025-07-17 17:02:55 Job submitted from host: <172.30.1.200:9618?addrs=172.30.1.200-9618&alias=tamsa2&noUDP&sock=schedd_2531_a24a>
+...
+040 (1247696.000.000) 2025-07-17 17:03:14 Started transferring input files
+	Transferring to host: <172.30.1.208:9618?addrs=172.30.1.208-9618&alias=node-w8.localdomain&noUDP&sock=slot1_1_4971_44e3_56699>
+...
+040 (1247696.000.000) 2025-07-17 17:03:14 Finished transferring input files
+...
+040 (1247696.000.000) 2025-07-17 17:03:15 Started transferring output files
+...
+021 (1247696.000.000) 2025-07-17 17:03:15 Error from starter on slot1_1@node-w8.localdomain:
+	Failed to transfer files: SHADOW at 172.30.1.200 failed to send file(s) to <172.30.1.208:37203>: |Error: reading from file /data6/Users/achihwan/hepenv.tar.gz: (errno 2) No such file or directory; STARTER failed to receive file(s) from <172.30.1.200:9618>
+	Code 13 Subcode 2
+...
+004 (1247696.000.000) 2025-07-17 17:03:15 Job was evicted.
+	(0) CPU times
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	30630  -  Run Bytes Received By Job
+	Transfer input files failure at access point tamsa2 while sending files to execution point slot1_1@node-w8.localdomain. Details: reading from file /data6/Users/achihwan/hepenv.tar.gz: (errno 2) No such file or directory
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 2         2 
+	   Disk (KB)            :       46       32      2048 
+	   GPUs                 :                           0 
+	   Memory (MB)          :             16000     16000 
+...
+012 (1247696.000.000) 2025-07-17 17:03:15 Job was held.
+	Transfer input files failure at access point tamsa2 while sending files to execution point slot1_1@node-w8.localdomain. Details: reading from file /data6/Users/achihwan/hepenv.tar.gz: (errno 2) No such file or directory
+	Code 13 Subcode 2
+...
+009 (1247696.000.000) 2025-07-17 17:05:02 Job was aborted.
+	via condor_rm (by user achihwan)
+...
+000 (1247756.000.000) 2025-07-17 17:05:06 Job submitted from host: <172.30.1.200:9618?addrs=172.30.1.200-9618&alias=tamsa2&noUDP&sock=schedd_2531_a24a>
+...
+040 (1247756.000.000) 2025-07-17 17:05:26 Started transferring input files
+	Transferring to host: <172.30.1.215:9618?addrs=172.30.1.215-9618&alias=node-w15.localdomain&noUDP&sock=slot1_3_5185_0d2c_105085>
+...
+040 (1247756.000.000) 2025-07-17 17:05:26 Finished transferring input files
+...
+040 (1247756.000.000) 2025-07-17 17:05:27 Started transferring output files
+...
+021 (1247756.000.000) 2025-07-17 17:05:27 Error from starter on slot1_3@node-w15.localdomain:
+	Failed to transfer files: SHADOW at 172.30.1.200 failed to send file(s) to <172.30.1.215:45055>: |Error: reading from file /data6/Users/achihwan/hepenv.tar.gz: (errno 2) No such file or directory; STARTER failed to receive file(s) from <172.30.1.200:9618>
+	Code 13 Subcode 2
+...
+004 (1247756.000.000) 2025-07-17 17:05:27 Job was evicted.
+	(0) CPU times
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	30580  -  Run Bytes Received By Job
+	Transfer input files failure at access point tamsa2 while sending files to execution point slot1_3@node-w15.localdomain. Details: reading from file /data6/Users/achihwan/hepenv.tar.gz: (errno 2) No such file or directory
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 2         2 
+	   Disk (KB)            :       46       32      2048 
+	   GPUs                 :                           0 
+	   Memory (MB)          :             16000     16000 
+...
+012 (1247756.000.000) 2025-07-17 17:05:27 Job was held.
+	Transfer input files failure at access point tamsa2 while sending files to execution point slot1_3@node-w15.localdomain. Details: reading from file /data6/Users/achihwan/hepenv.tar.gz: (errno 2) No such file or directory
+	Code 13 Subcode 2
+...
+009 (1247756.000.000) 2025-07-17 17:06:33 Job was aborted.
+	via condor_rm (by user achihwan)
+...
+000 (1247815.000.000) 2025-07-17 17:06:36 Job submitted from host: <172.30.1.200:9618?addrs=172.30.1.200-9618&alias=tamsa2&noUDP&sock=schedd_2531_a24a>
+...
+040 (1247815.000.000) 2025-07-17 17:06:48 Started transferring input files
+	Transferring to host: <172.30.1.211:9618?addrs=172.30.1.211-9618&alias=node-w11.localdomain&noUDP&sock=slot1_9_4969_dc23_57769>
+...
+001 (1247815.000.000) 2025-07-17 17:06:48 Job executing on host: <172.30.1.211:9618?addrs=172.30.1.211-9618&alias=node-w11.localdomain&noUDP&sock=startd_4935_93f7>
+	SlotName: slot1_9@node-w11.localdomain
+	CondorScratchDir = "/var/lib/condor/execute/dir_367511"
+	Cpus = 2
+	Disk = 2048
+	GPUs = 0
+	Memory = 16000
+...
+040 (1247815.000.000) 2025-07-17 17:06:48 Finished transferring input files
+...
+006 (1247815.000.000) 2025-07-17 17:06:53 Image size of job updated: 104
+	1  -  MemoryUsage of job (MB)
+	8  -  ResidentSetSize of job (KB)
+...
+040 (1247815.000.000) 2025-07-17 17:06:53 Started transferring output files
+...
+040 (1247815.000.000) 2025-07-17 17:06:53 Finished transferring output files
+...
+021 (1247815.000.000) 2025-07-17 17:06:54 Error from starter on slot1_9@node-w11.localdomain:
+	STARTER at 172.30.1.211 failed to send file(s) to <172.30.1.200:9618>: |Error: reading from file /var/lib/condor/execute/dir_367511/*.png: (errno 2) No such file or directory; SHADOW failed to receive file(s) from <172.30.1.211:36529>
+	Code 13 Subcode 2
+...
+004 (1247815.000.000) 2025-07-17 17:06:54 Job was evicted.
+	(0) CPU times
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	264  -  Run Bytes Sent By Job
+	30580  -  Run Bytes Received By Job
+	Transfer output files failure at execution point slot1_9@node-w11.localdomain while sending files to access point tamsa2. Details: reading from file /var/lib/condor/execute/dir_367511/*.png: (errno 2) No such file or directory
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0        2         2 
+	   Disk (KB)            :       53       32      2048 
+	   GPUs                 :                           0 
+	   Memory (MB)          :        1    16000     16000 
+	   TimeExecute (s)      :        5                    
+	   TimeSlotBusy (s)     :        6                    
+...
+012 (1247815.000.000) 2025-07-17 17:06:54 Job was held.
+	Transfer output files failure at execution point slot1_9@node-w11.localdomain while sending files to access point tamsa2. Details: reading from file /var/lib/condor/execute/dir_367511/*.png: (errno 2) No such file or directory
+	Code 12 Subcode 2
+...
+009 (1247815.000.000) 2025-07-17 17:08:14 Job was aborted.
+	via condor_rm (by user achihwan)
+
+	Job terminated by itself at 2025-07-17T08:06:53Z (using method 0: OF_ITS_OWN_ACCORD).
+...
+000 (1247874.000.000) 2025-07-17 17:08:22 Job submitted from host: <172.30.1.200:9618?addrs=172.30.1.200-9618&alias=tamsa2&noUDP&sock=schedd_2531_a24a>
+...
+009 (1247874.000.000) 2025-07-17 17:08:34 Job was aborted.
+	via condor_rm (by user achihwan)
+...
+000 (1247933.000.000) 2025-07-17 17:08:51 Job submitted from host: <172.30.1.200:9618?addrs=172.30.1.200-9618&alias=tamsa2&noUDP&sock=schedd_2531_a24a>
+...
+040 (1247933.000.000) 2025-07-17 17:09:03 Started transferring input files
+	Transferring to host: <172.30.1.210:9618?addrs=172.30.1.210-9618&alias=node-w10.localdomain&noUDP&sock=slot1_9_4947_5be2_33413>
+...
+001 (1247933.000.000) 2025-07-17 17:09:03 Job executing on host: <172.30.1.210:9618?addrs=172.30.1.210-9618&alias=node-w10.localdomain&noUDP&sock=startd_4913_7ce2>
+	SlotName: slot1_9@node-w10.localdomain
+	CondorScratchDir = "/var/lib/condor/execute/dir_3645411"
+	Cpus = 2
+	Disk = 2048
+	GPUs = 0
+	Memory = 16000
+...
+040 (1247933.000.000) 2025-07-17 17:09:03 Finished transferring input files
+...
+006 (1247933.000.000) 2025-07-17 17:09:08 Image size of job updated: 108
+	1  -  MemoryUsage of job (MB)
+	8  -  ResidentSetSize of job (KB)
+...
+040 (1247933.000.000) 2025-07-17 17:09:08 Started transferring output files
+...
+040 (1247933.000.000) 2025-07-17 17:09:09 Finished transferring output files
+...
+021 (1247933.000.000) 2025-07-17 17:09:09 Error from starter on slot1_9@node-w10.localdomain:
+	STARTER at 172.30.1.210 failed to send file(s) to <172.30.1.200:9618>: |Error: reading from file /var/lib/condor/execute/dir_3645411/*.png: (errno 2) No such file or directory; SHADOW failed to receive file(s) from <172.30.1.210:38209>
+	Code 13 Subcode 2
+...
+004 (1247933.000.000) 2025-07-17 17:09:09 Job was evicted.
+	(0) CPU times
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	265  -  Run Bytes Sent By Job
+	30580  -  Run Bytes Received By Job
+	Transfer output files failure at execution point slot1_9@node-w10.localdomain while sending files to access point tamsa2. Details: reading from file /var/lib/condor/execute/dir_3645411/*.png: (errno 2) No such file or directory
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0        2         2 
+	   Disk (KB)            :       53       32      2048 
+	   GPUs                 :                           0 
+	   Memory (MB)          :        1    16000     16000 
+	   TimeExecute (s)      :        5                    
+	   TimeSlotBusy (s)     :        6                    
+...
+012 (1247933.000.000) 2025-07-17 17:09:09 Job was held.
+	Transfer output files failure at execution point slot1_9@node-w10.localdomain while sending files to access point tamsa2. Details: reading from file /var/lib/condor/execute/dir_3645411/*.png: (errno 2) No such file or directory
+	Code 12 Subcode 2
+...
+009 (1247933.000.000) 2025-07-17 17:10:28 Job was aborted.
+	via condor_rm (by user achihwan)
+
+	Job terminated by itself at 2025-07-17T08:09:08Z (using method 0: OF_ITS_OWN_ACCORD).
+...
+000 (1247993.000.000) 2025-07-17 17:10:34 Job submitted from host: <172.30.1.200:9618?addrs=172.30.1.200-9618&alias=tamsa2&noUDP&sock=schedd_2531_a24a>
+...
+040 (1247993.000.000) 2025-07-17 17:10:45 Started transferring input files
+	Transferring to host: <172.30.1.103:9618?addrs=172.30.1.103-9618&alias=node-g3.localdomain&noUDP&sock=slot1_6_5357_3db3_14728>
+...
+001 (1247993.000.000) 2025-07-17 17:10:45 Job executing on host: <172.30.1.103:9618?addrs=172.30.1.103-9618&alias=node-g3.localdomain&noUDP&sock=startd_5323_b6b6>
+	SlotName: slot1_6@node-g3.localdomain
+	CondorScratchDir = "/var/lib/condor/execute/dir_3267579"
+	Cpus = 2
+	Disk = 2048
+	GPUs = 0
+	Memory = 16000
+...
+040 (1247993.000.000) 2025-07-17 17:10:45 Finished transferring input files
+...
+006 (1247993.000.000) 2025-07-17 17:10:50 Image size of job updated: 112
+	1  -  MemoryUsage of job (MB)
+	8  -  ResidentSetSize of job (KB)
+...
+040 (1247993.000.000) 2025-07-17 17:10:50 Started transferring output files
+...
+040 (1247993.000.000) 2025-07-17 17:10:50 Finished transferring output files
+...
+021 (1247993.000.000) 2025-07-17 17:10:50 Error from starter on slot1_6@node-g3.localdomain:
+	STARTER at 172.30.1.103 failed to send file(s) to <172.30.1.200:9618>: |Error: reading from file /var/lib/condor/execute/dir_3267579/*.png: (errno 2) No such file or directory; SHADOW failed to receive file(s) from <172.30.1.103:37951>
+	Code 13 Subcode 2
+...
+004 (1247993.000.000) 2025-07-17 17:10:50 Job was evicted.
+	(0) CPU times
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	287  -  Run Bytes Sent By Job
+	30580  -  Run Bytes Received By Job
+	Transfer output files failure at execution point slot1_6@node-g3.localdomain while sending files to access point tamsa2. Details: reading from file /var/lib/condor/execute/dir_3267579/*.png: (errno 2) No such file or directory
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 2         2 
+	   Disk (KB)            :       46       32      2048 
+	   GPUs                 :                           0 
+	   Memory (MB)          :        1    16000     16000 
+	   TimeExecute (s)      :        5                    
+	   TimeSlotBusy (s)     :        5                    
+...
+012 (1247993.000.000) 2025-07-17 17:10:51 Job was held.
+	Transfer output files failure at execution point slot1_6@node-g3.localdomain while sending files to access point tamsa2. Details: reading from file /var/lib/condor/execute/dir_3267579/*.png: (errno 2) No such file or directory
+	Code 12 Subcode 2
+...
+009 (1247993.000.000) 2025-07-17 17:11:47 Job was aborted.
+	via condor_rm (by user achihwan)
+
+	Job terminated by itself at 2025-07-17T08:10:50Z (using method 0: OF_ITS_OWN_ACCORD).
+...
+000 (1248053.000.000) 2025-07-17 17:12:01 Job submitted from host: <172.30.1.200:9618?addrs=172.30.1.200-9618&alias=tamsa2&noUDP&sock=schedd_2531_a24a>
+...
+040 (1248053.000.000) 2025-07-17 17:12:22 Started transferring input files
+	Transferring to host: <172.30.1.109:9618?addrs=172.30.1.109-9618&alias=node-g9.localdomain&noUDP&sock=slot1_15_5793_7145_22619>
+...
+001 (1248053.000.000) 2025-07-17 17:12:22 Job executing on host: <172.30.1.109:9618?addrs=172.30.1.109-9618&alias=node-g9.localdomain&noUDP&sock=startd_5759_c601>
+	SlotName: slot1_15@node-g9.localdomain
+	CondorScratchDir = "/var/lib/condor/execute/dir_1090151"
+	Cpus = 2
+	Disk = 2048
+	GPUs = 0
+	Memory = 16000
+...
+040 (1248053.000.000) 2025-07-17 17:12:22 Finished transferring input files
+...
+006 (1248053.000.000) 2025-07-17 17:12:27 Image size of job updated: 148
+	1  -  MemoryUsage of job (MB)
+	8  -  ResidentSetSize of job (KB)
+...
+040 (1248053.000.000) 2025-07-17 17:12:27 Started transferring output files
+...
+040 (1248053.000.000) 2025-07-17 17:12:28 Finished transferring output files
+...
+021 (1248053.000.000) 2025-07-17 17:12:28 Error from starter on slot1_15@node-g9.localdomain:
+	STARTER at 172.30.1.109 failed to send file(s) to <172.30.1.200:9618>: |Error: reading from file /var/lib/condor/execute/dir_1090151/*.png: (errno 2) No such file or directory; SHADOW failed to receive file(s) from <172.30.1.109:46065>
+	Code 13 Subcode 2
+...
+004 (1248053.000.000) 2025-07-17 17:12:28 Job was evicted.
+	(0) CPU times
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	273  -  Run Bytes Sent By Job
+	30580  -  Run Bytes Received By Job
+	Transfer output files failure at execution point slot1_15@node-g9.localdomain while sending files to access point tamsa2. Details: reading from file /var/lib/condor/execute/dir_1090151/*.png: (errno 2) No such file or directory
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0        2         2 
+	   Disk (KB)            :       53       32      2048 
+	   GPUs                 :                           0 
+	   Memory (MB)          :        1    16000     16000 
+	   TimeExecute (s)      :        5                    
+	   TimeSlotBusy (s)     :        6                    
+...
+012 (1248053.000.000) 2025-07-17 17:12:28 Job was held.
+	Transfer output files failure at execution point slot1_15@node-g9.localdomain while sending files to access point tamsa2. Details: reading from file /var/lib/condor/execute/dir_1090151/*.png: (errno 2) No such file or directory
+	Code 12 Subcode 2
+...
+000 (1248113.000.000) 2025-07-17 17:12:49 Job submitted from host: <172.30.1.200:9618?addrs=172.30.1.200-9618&alias=tamsa2&noUDP&sock=schedd_2531_a24a>
+...
+009 (1248113.000.000) 2025-07-17 17:13:09 Job was aborted.
+	via condor_rm (by user achihwan)
+...
+009 (1248053.000.000) 2025-07-17 17:13:09 Job was aborted.
+	via condor_rm (by user achihwan)
+
+	Job terminated by itself at 2025-07-17T08:12:27Z (using method 0: OF_ITS_OWN_ACCORD).
+...
+000 (1248172.000.000) 2025-07-17 17:13:15 Job submitted from host: <172.30.1.200:9618?addrs=172.30.1.200-9618&alias=tamsa2&noUDP&sock=schedd_2531_a24a>
+...
+009 (1248172.000.000) 2025-07-17 17:14:42 Job was aborted.
+	via condor_rm (by user achihwan)
+...
+000 (1248231.000.000) 2025-07-17 17:14:48 Job submitted from host: <172.30.1.200:9618?addrs=172.30.1.200-9618&alias=tamsa2&noUDP&sock=schedd_2531_a24a>
+...
+040 (1248231.000.000) 2025-07-17 17:17:13 Started transferring input files
+	Transferring to host: <172.30.1.221:9618?addrs=172.30.1.221-9618&alias=node-w21.localdomain&noUDP&sock=slot1_3_6000_4aed_140307>
+...
+040 (1248231.000.000) 2025-07-17 17:17:13 Finished transferring input files
+...
+001 (1248231.000.000) 2025-07-17 17:17:14 Job executing on host: <172.30.1.221:9618?addrs=172.30.1.221-9618&alias=node-w21.localdomain&noUDP&sock=startd_5966_c21c>
+	SlotName: slot1_3@node-w21.localdomain
+	CondorScratchDir = "/var/lib/condor/execute/dir_2327883"
+	Cpus = 2
+	Disk = 2048
+	GPUs = 0
+	Memory = 16000
+...
+006 (1248231.000.000) 2025-07-17 17:17:19 Image size of job updated: 192
+	1  -  MemoryUsage of job (MB)
+	8  -  ResidentSetSize of job (KB)
+...
+040 (1248231.000.000) 2025-07-17 17:17:19 Started transferring output files
+...
+040 (1248231.000.000) 2025-07-17 17:17:19 Finished transferring output files
+...
+021 (1248231.000.000) 2025-07-17 17:17:19 Error from starter on slot1_3@node-w21.localdomain:
+	STARTER at 172.30.1.221 failed to send file(s) to <172.30.1.200:9618>: |Error: reading from file /var/lib/condor/execute/dir_2327883/*.png: (errno 2) No such file or directory; SHADOW failed to receive file(s) from <172.30.1.221:39155>
+	Code 13 Subcode 2
+...
+004 (1248231.000.000) 2025-07-17 17:17:19 Job was evicted.
+	(0) CPU times
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	266  -  Run Bytes Sent By Job
+	30577  -  Run Bytes Received By Job
+	Transfer output files failure at execution point slot1_3@node-w21.localdomain while sending files to access point tamsa2. Details: reading from file /var/lib/condor/execute/dir_2327883/*.png: (errno 2) No such file or directory
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 2         2 
+	   Disk (KB)            :       46       32      2048 
+	   GPUs                 :                           0 
+	   Memory (MB)          :        1    16000     16000 
+	   TimeExecute (s)      :        5                    
+	   TimeSlotBusy (s)     :        6                    
+...
+012 (1248231.000.000) 2025-07-17 17:17:19 Job was held.
+	Transfer output files failure at execution point slot1_3@node-w21.localdomain while sending files to access point tamsa2. Details: reading from file /var/lib/condor/execute/dir_2327883/*.png: (errno 2) No such file or directory
+	Code 12 Subcode 2
+...
+009 (1248231.000.000) 2025-07-17 17:18:37 Job was aborted.
+	via condor_rm (by user achihwan)
+
+	Job terminated by itself at 2025-07-17T08:17:19Z (using method 0: OF_ITS_OWN_ACCORD).
+...
+000 (1248292.000.000) 2025-07-17 17:23:10 Job submitted from host: <172.30.1.200:9618?addrs=172.30.1.200-9618&alias=tamsa2&noUDP&sock=schedd_2531_a24a>
+...
+040 (1248292.000.000) 2025-07-17 17:23:31 Started transferring input files
+	Transferring to host: <172.30.1.219:9618?addrs=172.30.1.219-9618&alias=node-w19.localdomain&noUDP&sock=slot1_16_5155_e9eb_110816>
+...
+040 (1248292.000.000) 2025-07-17 17:23:31 Finished transferring input files
+...
+001 (1248292.000.000) 2025-07-17 17:23:31 Job executing on host: <172.30.1.219:9618?addrs=172.30.1.219-9618&alias=node-w19.localdomain&noUDP&sock=startd_5121_2895>
+	SlotName: slot1_16@node-w19.localdomain
+	CondorScratchDir = "/var/lib/condor/execute/dir_1060060"
+	Cpus = 2
+	Disk = 2048
+	GPUs = 0
+	Memory = 16000
+...
+006 (1248292.000.000) 2025-07-17 17:23:36 Image size of job updated: 148
+	1  -  MemoryUsage of job (MB)
+	8  -  ResidentSetSize of job (KB)
+...
+040 (1248292.000.000) 2025-07-17 17:23:36 Started transferring output files
+...
+040 (1248292.000.000) 2025-07-17 17:23:36 Finished transferring output files
+...
+021 (1248292.000.000) 2025-07-17 17:23:36 Error from starter on slot1_16@node-w19.localdomain:
+	STARTER at 172.30.1.219 failed to send file(s) to <172.30.1.200:9618>: |Error: reading from file /var/lib/condor/execute/dir_1060060/*.png: (errno 2) No such file or directory; SHADOW failed to receive file(s) from <172.30.1.219:33915>
+	Code 13 Subcode 2
+...
+004 (1248292.000.000) 2025-07-17 17:23:36 Job was evicted.
+	(0) CPU times
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	434  -  Run Bytes Sent By Job
+	30655  -  Run Bytes Received By Job
+	Transfer output files failure at execution point slot1_16@node-w19.localdomain while sending files to access point tamsa2. Details: reading from file /var/lib/condor/execute/dir_1060060/*.png: (errno 2) No such file or directory
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 2         2 
+	   Disk (KB)            :       47       32      2048 
+	   GPUs                 :                           0 
+	   Memory (MB)          :        1    16000     16000 
+	   TimeExecute (s)      :        5                    
+	   TimeSlotBusy (s)     :        5                    
+...
+012 (1248292.000.000) 2025-07-17 17:23:36 Job was held.
+	Transfer output files failure at execution point slot1_16@node-w19.localdomain while sending files to access point tamsa2. Details: reading from file /var/lib/condor/execute/dir_1060060/*.png: (errno 2) No such file or directory
+	Code 12 Subcode 2
+...
+009 (1248292.000.000) 2025-07-17 17:28:06 Job was aborted.
+	via condor_rm (by user achihwan)
+
+	Job terminated by itself at 2025-07-17T08:23:36Z (using method 0: OF_ITS_OWN_ACCORD).
+...
+000 (1248353.000.000) 2025-07-17 17:28:10 Job submitted from host: <172.30.1.200:9618?addrs=172.30.1.200-9618&alias=tamsa2&noUDP&sock=schedd_2531_a24a>
+...
+040 (1248353.000.000) 2025-07-17 17:28:29 Entered queue to transfer input files
+	Transferring to host: <172.30.1.219:9618?addrs=172.30.1.219-9618&alias=node-w19.localdomain&noUDP&sock=slot1_8_5155_e9eb_110839>
+...
+040 (1248353.000.000) 2025-07-17 17:28:35 Started transferring input files
+	Seconds spent in queue: 6
+...
+040 (1248353.000.000) 2025-07-17 17:28:37 Finished transferring input files
+...
+001 (1248353.000.000) 2025-07-17 17:28:37 Job executing on host: <172.30.1.219:9618?addrs=172.30.1.219-9618&alias=node-w19.localdomain&noUDP&sock=startd_5121_2895>
+	SlotName: slot1_8@node-w19.localdomain
+	CondorScratchDir = "/var/lib/condor/execute/dir_1062778"
+	Cpus = 2
+	Disk = 751616
+	GPUs = 0
+	Memory = 16000
+...
+006 (1248353.000.000) 2025-07-17 17:28:50 Image size of job updated: 1154356
+	1128  -  MemoryUsage of job (MB)
+	1154356  -  ResidentSetSize of job (KB)
+...
+006 (1248353.000.000) 2025-07-17 17:28:57 Image size of job updated: 2199792
+	2149  -  MemoryUsage of job (MB)
+	2199792  -  ResidentSetSize of job (KB)
+...
+040 (1248353.000.000) 2025-07-17 17:28:57 Started transferring output files
+	Seconds spent in queue: 28
+...
+040 (1248353.000.000) 2025-07-17 17:28:57 Finished transferring output files
+...
+021 (1248353.000.000) 2025-07-17 17:28:57 Error from starter on slot1_8@node-w19.localdomain:
+	STARTER at 172.30.1.219 failed to send file(s) to <172.30.1.200:9618>: |Error: reading from file /var/lib/condor/execute/dir_1062778/*.png: (errno 2) No such file or directory; SHADOW failed to receive file(s) from <172.30.1.219:39243>
+	Code 13 Subcode 2
+...
+004 (1248353.000.000) 2025-07-17 17:28:57 Job was evicted.
+	(0) CPU times
+		Usr 0 00:00:15, Sys 0 00:00:04  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	388  -  Run Bytes Sent By Job
+	690287424  -  Run Bytes Received By Job
+	Transfer output files failure at execution point slot1_8@node-w19.localdomain while sending files to access point tamsa2. Details: reading from file /var/lib/condor/execute/dir_1062778/*.png: (errno 2) No such file or directory
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 2         2 
+	   Disk (KB)            :  2774353   750000    751616 
+	   GPUs                 :                           0 
+	   Memory (MB)          :     2149    16000     16000 
+	   TimeExecute (s)      :       20                    
+	   TimeSlotBusy (s)     :       33                    
+...
+012 (1248353.000.000) 2025-07-17 17:28:57 Job was held.
+	Transfer output files failure at execution point slot1_8@node-w19.localdomain while sending files to access point tamsa2. Details: reading from file /var/lib/condor/execute/dir_1062778/*.png: (errno 2) No such file or directory
+	Code 12 Subcode 2
+...
+009 (1248353.000.000) 2025-07-17 17:30:19 Job was aborted.
+	via condor_rm (by user achihwan)
+
+	Job terminated by itself at 2025-07-17T08:28:57Z (using method 0: OF_ITS_OWN_ACCORD).
+...
+000 (1248413.000.000) 2025-07-17 17:33:23 Job submitted from host: <172.30.1.200:9618?addrs=172.30.1.200-9618&alias=tamsa2&noUDP&sock=schedd_2531_a24a>
+...
+040 (1248413.000.000) 2025-07-17 17:33:47 Started transferring input files
+	Transferring to host: <172.30.1.221:9618?addrs=172.30.1.221-9618&alias=node-w21.localdomain&noUDP&sock=slot1_26_6000_4aed_140413>
+...
+040 (1248413.000.000) 2025-07-17 17:33:50 Finished transferring input files
+...
+001 (1248413.000.000) 2025-07-17 17:33:50 Job executing on host: <172.30.1.221:9618?addrs=172.30.1.221-9618&alias=node-w21.localdomain&noUDP&sock=startd_5966_c21c>
+	SlotName: slot1_26@node-w21.localdomain
+	CondorScratchDir = "/var/lib/condor/execute/dir_2345128"
+	Cpus = 2
+	Disk = 751616
+	GPUs = 0
+	Memory = 16000
+...
+006 (1248413.000.000) 2025-07-17 17:34:03 Image size of job updated: 830640
+	812  -  MemoryUsage of job (MB)
+	830640  -  ResidentSetSize of job (KB)
+...
+006 (1248413.000.000) 2025-07-17 17:34:16 Image size of job updated: 2199792
+	2149  -  MemoryUsage of job (MB)
+	2199792  -  ResidentSetSize of job (KB)
+...
+040 (1248413.000.000) 2025-07-17 17:34:16 Started transferring output files
+...
+040 (1248413.000.000) 2025-07-17 17:34:16 Finished transferring output files
+...
+021 (1248413.000.000) 2025-07-17 17:34:16 Error from starter on slot1_26@node-w21.localdomain:
+	STARTER at 172.30.1.221 failed to send file(s) to <172.30.1.200:9618>: |Error: reading from file /var/lib/condor/execute/dir_2345128/*.png: (errno 2) No such file or directory; SHADOW failed to receive file(s) from <172.30.1.221:35799>
+	Code 13 Subcode 2
+...
+004 (1248413.000.000) 2025-07-17 17:34:16 Job was evicted.
+	(0) CPU times
+		Usr 0 00:00:20, Sys 0 00:00:04  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	388  -  Run Bytes Sent By Job
+	690287424  -  Run Bytes Received By Job
+	Transfer output files failure at execution point slot1_26@node-w21.localdomain while sending files to access point tamsa2. Details: reading from file /var/lib/condor/execute/dir_2345128/*.png: (errno 2) No such file or directory
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0        2         2 
+	   Disk (KB)            :  2774360   750000    751616 
+	   GPUs                 :                           0 
+	   Memory (MB)          :     2149    16000     16000 
+	   TimeExecute (s)      :       26                    
+	   TimeSlotBusy (s)     :       33                    
+...
+012 (1248413.000.000) 2025-07-17 17:34:16 Job was held.
+	Transfer output files failure at execution point slot1_26@node-w21.localdomain while sending files to access point tamsa2. Details: reading from file /var/lib/condor/execute/dir_2345128/*.png: (errno 2) No such file or directory
+	Code 12 Subcode 2
+...
+009 (1248413.000.000) 2025-07-17 17:34:44 Job was aborted.
+	via condor_rm (by user achihwan)
+
+	Job terminated by itself at 2025-07-17T08:34:16Z (using method 0: OF_ITS_OWN_ACCORD).
+...
+000 (1248472.000.000) 2025-07-17 17:34:49 Job submitted from host: <172.30.1.200:9618?addrs=172.30.1.200-9618&alias=tamsa2&noUDP&sock=schedd_2531_a24a>
+...
+040 (1248472.000.000) 2025-07-17 17:35:11 Entered queue to transfer input files
+	Transferring to host: <172.30.1.205:9618?addrs=172.30.1.205-9618&alias=node-w5.localdomain&noUDP&sock=slot1_10_5098_c088_47834>
+...
+040 (1248472.000.000) 2025-07-17 17:35:18 Started transferring input files
+	Seconds spent in queue: 7
+...
+040 (1248472.000.000) 2025-07-17 17:35:22 Finished transferring input files
+...
+001 (1248472.000.000) 2025-07-17 17:35:22 Job executing on host: <172.30.1.205:9618?addrs=172.30.1.205-9618&alias=node-w5.localdomain&noUDP&sock=startd_5064_0faf>
+	SlotName: slot1_10@node-w5.localdomain
+	CondorScratchDir = "/var/lib/condor/execute/dir_2842915"
+	Cpus = 2
+	Disk = 751616
+	GPUs = 0
+	Memory = 16000
+...
+006 (1248472.000.000) 2025-07-17 17:35:36 Image size of job updated: 1108816
+	1083  -  MemoryUsage of job (MB)
+	1108816  -  ResidentSetSize of job (KB)
+...
+006 (1248472.000.000) 2025-07-17 17:35:45 Image size of job updated: 2199792
+	2149  -  MemoryUsage of job (MB)
+	2199792  -  ResidentSetSize of job (KB)
+...
+040 (1248472.000.000) 2025-07-17 17:35:45 Started transferring output files
+	Seconds spent in queue: 34
+...
+040 (1248472.000.000) 2025-07-17 17:35:45 Finished transferring output files
+...
+021 (1248472.000.000) 2025-07-17 17:35:45 Error from starter on slot1_10@node-w5.localdomain:
+	STARTER at 172.30.1.205 failed to send file(s) to <172.30.1.200:9618>: |Error: reading from file /var/lib/condor/execute/dir_2842915/*.png: (errno 2) No such file or directory; SHADOW failed to receive file(s) from <172.30.1.205:46711>
+	Code 13 Subcode 2
+...
+004 (1248472.000.000) 2025-07-17 17:35:45 Job was evicted.
+	(0) CPU times
+		Usr 0 00:00:17, Sys 0 00:00:04  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	800  -  Run Bytes Sent By Job
+	690287488  -  Run Bytes Received By Job
+	Transfer output files failure at execution point slot1_10@node-w5.localdomain while sending files to access point tamsa2. Details: reading from file /var/lib/condor/execute/dir_2842915/*.png: (errno 2) No such file or directory
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0        2         2 
+	   Disk (KB)            :  2774360   750000    751616 
+	   GPUs                 :                           0 
+	   Memory (MB)          :     2149    16000     16000 
+	   TimeExecute (s)      :       23                    
+	   TimeSlotBusy (s)     :       39                    
+...
+012 (1248472.000.000) 2025-07-17 17:35:46 Job was held.
+	Transfer output files failure at execution point slot1_10@node-w5.localdomain while sending files to access point tamsa2. Details: reading from file /var/lib/condor/execute/dir_2842915/*.png: (errno 2) No such file or directory
+	Code 12 Subcode 2
+...
+009 (1248472.000.000) 2025-07-17 17:36:48 Job was aborted.
+	via condor_rm (by user achihwan)
+
+	Job terminated by itself at 2025-07-17T08:35:45Z (using method 0: OF_ITS_OWN_ACCORD).
+...
+000 (1250116.000.000) 2025-07-17 17:36:55 Job submitted from host: <172.30.1.200:9618?addrs=172.30.1.200-9618&alias=tamsa2&noUDP&sock=schedd_2531_a24a>
+...
+040 (1250116.000.000) 2025-07-17 17:39:35 Started transferring input files
+	Transferring to host: <172.30.1.204:9618?addrs=172.30.1.204-9618&alias=node-w4.localdomain&noUDP&sock=slot1_10_4930_6182_68249>
+...
+040 (1250116.000.000) 2025-07-17 17:39:39 Finished transferring input files
+...
+001 (1250116.000.000) 2025-07-17 17:39:39 Job executing on host: <172.30.1.204:9618?addrs=172.30.1.204-9618&alias=node-w4.localdomain&noUDP&sock=startd_4896_d3c6>
+	SlotName: slot1_10@node-w4.localdomain
+	CondorScratchDir = "/var/lib/condor/execute/dir_2021817"
+	Cpus = 2
+	Disk = 751616
+	GPUs = 0
+	Memory = 16000
+...
+006 (1250116.000.000) 2025-07-17 17:39:52 Image size of job updated: 1009320
+	986  -  MemoryUsage of job (MB)
+	1009320  -  ResidentSetSize of job (KB)
+...
+006 (1250116.000.000) 2025-07-17 17:40:01 Image size of job updated: 2199792
+	2149  -  MemoryUsage of job (MB)
+	2199792  -  ResidentSetSize of job (KB)
+...
+040 (1250116.000.000) 2025-07-17 17:40:01 Started transferring output files
+...
+040 (1250116.000.000) 2025-07-17 17:40:01 Finished transferring output files
+...
+021 (1250116.000.000) 2025-07-17 17:40:02 Error from starter on slot1_10@node-w4.localdomain:
+	STARTER at 172.30.1.204 failed to send file(s) to <172.30.1.200:9618>: |Error: reading from file /var/lib/condor/execute/dir_2021817/*.png: (errno 2) No such file or directory; SHADOW failed to receive file(s) from <172.30.1.204:34129>
+	Code 13 Subcode 2
+...
+004 (1250116.000.000) 2025-07-17 17:40:02 Job was evicted.
+	(0) CPU times
+		Usr 0 00:00:17, Sys 0 00:00:02  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	702  -  Run Bytes Sent By Job
+	690287488  -  Run Bytes Received By Job
+	Transfer output files failure at execution point slot1_10@node-w4.localdomain while sending files to access point tamsa2. Details: reading from file /var/lib/condor/execute/dir_2021817/*.png: (errno 2) No such file or directory
+	Partitionable Resources :      Usage  Request Allocated 
+	   Cpus                 :       1.13        2         2 
+	   Disk (KB)            : 2774360      750000    751616 
+	   GPUs                 :                             0 
+	   Memory (MB)          :    2149       16000     16000 
+	   TimeExecute (s)      :      22                       
+	   TimeSlotBusy (s)     :      27                       
+...
+012 (1250116.000.000) 2025-07-17 17:40:02 Job was held.
+	Transfer output files failure at execution point slot1_10@node-w4.localdomain while sending files to access point tamsa2. Details: reading from file /var/lib/condor/execute/dir_2021817/*.png: (errno 2) No such file or directory
+	Code 12 Subcode 2
+...
+000 (1251218.000.000) 2025-07-17 17:42:38 Job submitted from host: <172.30.1.200:9618?addrs=172.30.1.200-9618&alias=tamsa2&noUDP&sock=schedd_2531_a24a>
+...
+009 (1250116.000.000) 2025-07-17 17:42:45 Job was aborted.
+	via condor_rm (by user achihwan)
+
+	Job terminated by itself at 2025-07-17T08:40:01Z (using method 0: OF_ITS_OWN_ACCORD).
+...
+040 (1251218.000.000) 2025-07-17 17:42:58 Started transferring input files
+	Transferring to host: <172.30.1.221:9618?addrs=172.30.1.221-9618&alias=node-w21.localdomain&noUDP&sock=slot1_11_6000_4aed_140625>
+...
+040 (1251218.000.000) 2025-07-17 17:43:01 Finished transferring input files
+...
+001 (1251218.000.000) 2025-07-17 17:43:01 Job executing on host: <172.30.1.221:9618?addrs=172.30.1.221-9618&alias=node-w21.localdomain&noUDP&sock=startd_5966_c21c>
+	SlotName: slot1_11@node-w21.localdomain
+	CondorScratchDir = "/var/lib/condor/execute/dir_2378720"
+	Cpus = 2
+	Disk = 751616
+	GPUs = 0
+	Memory = 16000
+...
+006 (1251218.000.000) 2025-07-17 17:43:14 Image size of job updated: 1008180
+	985  -  MemoryUsage of job (MB)
+	1008180  -  ResidentSetSize of job (KB)
+...
+006 (1251218.000.000) 2025-07-17 17:43:23 Image size of job updated: 2199796
+	2149  -  MemoryUsage of job (MB)
+	2199796  -  ResidentSetSize of job (KB)
+...
+040 (1251218.000.000) 2025-07-17 17:43:24 Started transferring output files
+...
+040 (1251218.000.000) 2025-07-17 17:43:24 Finished transferring output files
+...
+021 (1251218.000.000) 2025-07-17 17:43:24 Error from starter on slot1_11@node-w21.localdomain:
+	STARTER at 172.30.1.221 failed to send file(s) to <172.30.1.200:9618>: |Error: reading from file /var/lib/condor/execute/dir_2378720/*.png: (errno 2) No such file or directory; SHADOW failed to receive file(s) from <172.30.1.221:36847>
+	Code 13 Subcode 2
+...
+004 (1251218.000.000) 2025-07-17 17:43:24 Job was evicted.
+	(0) CPU times
+		Usr 0 00:00:17, Sys 0 00:00:04  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	4418  -  Run Bytes Sent By Job
+	690287488  -  Run Bytes Received By Job
+	Transfer output files failure at execution point slot1_11@node-w21.localdomain while sending files to access point tamsa2. Details: reading from file /var/lib/condor/execute/dir_2378720/*.png: (errno 2) No such file or directory
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0        2         2 
+	   Disk (KB)            :  2774364   750000    751616 
+	   GPUs                 :                           0 
+	   Memory (MB)          :     2149    16000     16000 
+	   TimeExecute (s)      :       22                    
+	   TimeSlotBusy (s)     :       26                    
+...
+012 (1251218.000.000) 2025-07-17 17:43:24 Job was held.
+	Transfer output files failure at execution point slot1_11@node-w21.localdomain while sending files to access point tamsa2. Details: reading from file /var/lib/condor/execute/dir_2378720/*.png: (errno 2) No such file or directory
+	Code 12 Subcode 2
+...
+009 (1251218.000.000) 2025-07-17 17:44:17 Job was aborted.
+	via condor_rm (by user achihwan)
+
+	Job terminated by itself at 2025-07-17T08:43:23Z (using method 0: OF_ITS_OWN_ACCORD).
+...
+000 (1253141.000.000) 2025-07-17 17:44:34 Job submitted from host: <172.30.1.200:9618?addrs=172.30.1.200-9618&alias=tamsa2&noUDP&sock=schedd_2531_a24a>
+...
+040 (1253141.000.000) 2025-07-17 17:44:56 Started transferring input files
+	Transferring to host: <172.30.1.219:9618?addrs=172.30.1.219-9618&alias=node-w19.localdomain&noUDP&sock=slot1_6_5155_e9eb_111045>
+...
+040 (1253141.000.000) 2025-07-17 17:44:58 Finished transferring input files
+...
+001 (1253141.000.000) 2025-07-17 17:44:58 Job executing on host: <172.30.1.219:9618?addrs=172.30.1.219-9618&alias=node-w19.localdomain&noUDP&sock=startd_5121_2895>
+	SlotName: slot1_6@node-w19.localdomain
+	CondorScratchDir = "/var/lib/condor/execute/dir_1079211"
+	Cpus = 2
+	Disk = 751616
+	GPUs = 0
+	Memory = 16000
+...
+006 (1253141.000.000) 2025-07-17 17:45:12 Image size of job updated: 1103080
+	1078  -  MemoryUsage of job (MB)
+	1103080  -  ResidentSetSize of job (KB)
+...
+006 (1253141.000.000) 2025-07-17 17:45:21 Image size of job updated: 2199788
+	2149  -  MemoryUsage of job (MB)
+	2199788  -  ResidentSetSize of job (KB)
+...
+040 (1253141.000.000) 2025-07-17 17:45:21 Started transferring output files
+...
+040 (1253141.000.000) 2025-07-17 17:45:21 Finished transferring output files
+...
+021 (1253141.000.000) 2025-07-17 17:45:21 Error from starter on slot1_6@node-w19.localdomain:
+	STARTER at 172.30.1.219 failed to send file(s) to <172.30.1.200:9618>: |Error: reading from file /var/lib/condor/execute/dir_1079211/*.png: (errno 2) No such file or directory; SHADOW failed to receive file(s) from <172.30.1.219:33987>
+	Code 13 Subcode 2
+...
+004 (1253141.000.000) 2025-07-17 17:45:21 Job was evicted.
+	(0) CPU times
+		Usr 0 00:00:17, Sys 0 00:00:04  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	464  -  Run Bytes Sent By Job
+	690287424  -  Run Bytes Received By Job
+	Transfer output files failure at execution point slot1_6@node-w19.localdomain while sending files to access point tamsa2. Details: reading from file /var/lib/condor/execute/dir_1079211/*.png: (errno 2) No such file or directory
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0        2         2 
+	   Disk (KB)            :  2774360   750000    751616 
+	   GPUs                 :                           0 
+	   Memory (MB)          :     2149    16000     16000 
+	   TimeExecute (s)      :       23                    
+	   TimeSlotBusy (s)     :       33                    
+...
+012 (1253141.000.000) 2025-07-17 17:45:21 Job was held.
+	Transfer output files failure at execution point slot1_6@node-w19.localdomain while sending files to access point tamsa2. Details: reading from file /var/lib/condor/execute/dir_1079211/*.png: (errno 2) No such file or directory
+	Code 12 Subcode 2
+...
+009 (1253141.000.000) 2025-07-17 17:54:41 Job was aborted.
+	via condor_rm (by user achihwan)
+
+	Job terminated by itself at 2025-07-17T08:45:21Z (using method 0: OF_ITS_OWN_ACCORD).
+...
+000 (1253208.000.000) 2025-07-17 17:58:17 Job submitted from host: <172.30.1.200:9618?addrs=172.30.1.200-9618&alias=tamsa2&noUDP&sock=schedd_2531_a24a>
+...
+040 (1253208.000.000) 2025-07-17 17:58:33 Started transferring input files
+	Transferring to host: <172.30.1.214:9618?addrs=172.30.1.214-9618&alias=node-w14.localdomain&noUDP&sock=slot1_11_5193_b02c_91188>
+...
+040 (1253208.000.000) 2025-07-17 17:58:36 Finished transferring input files
+...
+001 (1253208.000.000) 2025-07-17 17:58:36 Job executing on host: <172.30.1.214:9618?addrs=172.30.1.214-9618&alias=node-w14.localdomain&noUDP&sock=startd_5159_392e>
+	SlotName: slot1_11@node-w14.localdomain
+	CondorScratchDir = "/var/lib/condor/execute/dir_791415"
+	Cpus = 2
+	Disk = 751616
+	GPUs = 0
+	Memory = 16000
+...
+006 (1253208.000.000) 2025-07-17 17:58:49 Image size of job updated: 980656
+	958  -  MemoryUsage of job (MB)
+	980656  -  ResidentSetSize of job (KB)
+...
+006 (1253208.000.000) 2025-07-17 17:59:01 Image size of job updated: 2199796
+	2149  -  MemoryUsage of job (MB)
+	2199796  -  ResidentSetSize of job (KB)
+...
+040 (1253208.000.000) 2025-07-17 17:59:01 Started transferring output files
+...
+040 (1253208.000.000) 2025-07-17 17:59:01 Finished transferring output files
+...
+021 (1253208.000.000) 2025-07-17 17:59:01 Error from starter on slot1_11@node-w14.localdomain:
+	STARTER at 172.30.1.214 failed to send file(s) to <172.30.1.200:9618>: |Error: reading from file /var/lib/condor/execute/dir_791415/*.png: (errno 2) No such file or directory; SHADOW failed to receive file(s) from <172.30.1.214:36967>
+	Code 13 Subcode 2
+...
+004 (1253208.000.000) 2025-07-17 17:59:01 Job was evicted.
+	(0) CPU times
+		Usr 0 00:00:19, Sys 0 00:00:05  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	452  -  Run Bytes Sent By Job
+	690287488  -  Run Bytes Received By Job
+	Transfer output files failure at execution point slot1_11@node-w14.localdomain while sending files to access point tamsa2. Details: reading from file /var/lib/condor/execute/dir_791415/*.png: (errno 2) No such file or directory
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 2         2 
+	   Disk (KB)            :  2774353   750000    751616 
+	   GPUs                 :                           0 
+	   Memory (MB)          :     2149    16000     16000 
+	   TimeExecute (s)      :       25                    
+	   TimeSlotBusy (s)     :       32                    
+...
+012 (1253208.000.000) 2025-07-17 17:59:01 Job was held.
+	Transfer output files failure at execution point slot1_11@node-w14.localdomain while sending files to access point tamsa2. Details: reading from file /var/lib/condor/execute/dir_791415/*.png: (errno 2) No such file or directory
+	Code 12 Subcode 2
+...
+009 (1253208.000.000) 2025-07-17 18:04:59 Job was aborted.
+	via condor_rm (by user achihwan)
+
+	Job terminated by itself at 2025-07-17T08:59:01Z (using method 0: OF_ITS_OWN_ACCORD).
+...
+000 (1253270.000.000) 2025-07-17 18:05:03 Job submitted from host: <172.30.1.200:9618?addrs=172.30.1.200-9618&alias=tamsa2&noUDP&sock=schedd_2531_a24a>
+...
+040 (1253270.000.000) 2025-07-17 18:05:25 Started transferring input files
+	Transferring to host: <172.30.1.214:9618?addrs=172.30.1.214-9618&alias=node-w14.localdomain&noUDP&sock=slot1_19_5193_b02c_91279>
+...
+040 (1253270.000.000) 2025-07-17 18:05:29 Finished transferring input files
+...
+001 (1253270.000.000) 2025-07-17 18:05:29 Job executing on host: <172.30.1.214:9618?addrs=172.30.1.214-9618&alias=node-w14.localdomain&noUDP&sock=startd_5159_392e>
+	SlotName: slot1_19@node-w14.localdomain
+	CondorScratchDir = "/var/lib/condor/execute/dir_799301"
+	Cpus = 2
+	Disk = 751616
+	GPUs = 0
+	Memory = 16000
+...
+006 (1253270.000.000) 2025-07-17 18:05:44 Image size of job updated: 1079472
+	1055  -  MemoryUsage of job (MB)
+	1079472  -  ResidentSetSize of job (KB)
+...
+006 (1253270.000.000) 2025-07-17 18:05:56 Image size of job updated: 2232420
+	2149  -  MemoryUsage of job (MB)
+	2199800  -  ResidentSetSize of job (KB)
+...
+040 (1253270.000.000) 2025-07-17 18:05:56 Started transferring output files
+...
+040 (1253270.000.000) 2025-07-17 18:05:56 Finished transferring output files
+...
+021 (1253270.000.000) 2025-07-17 18:05:56 Error from starter on slot1_19@node-w14.localdomain:
+	STARTER at 172.30.1.214 failed to send file(s) to <172.30.1.200:9618>: |Error: reading from file /var/lib/condor/execute/dir_799301/*.png: (errno 2) No such file or directory; SHADOW failed to receive file(s) from <172.30.1.214:33231>
+	Code 13 Subcode 2
+...
+004 (1253270.000.000) 2025-07-17 18:05:56 Job was evicted.
+	(0) CPU times
+		Usr 0 00:00:21, Sys 0 00:00:05  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	11533  -  Run Bytes Sent By Job
+	690287424  -  Run Bytes Received By Job
+	Transfer output files failure at execution point slot1_19@node-w14.localdomain while sending files to access point tamsa2. Details: reading from file /var/lib/condor/execute/dir_799301/*.png: (errno 2) No such file or directory
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0        2         2 
+	   Disk (KB)            :  2774370   750000    751616 
+	   GPUs                 :                           0 
+	   Memory (MB)          :     2149    16000     16000 
+	   TimeExecute (s)      :       27                    
+	   TimeSlotBusy (s)     :       34                    
+...
+012 (1253270.000.000) 2025-07-17 18:05:56 Job was held.
+	Transfer output files failure at execution point slot1_19@node-w14.localdomain while sending files to access point tamsa2. Details: reading from file /var/lib/condor/execute/dir_799301/*.png: (errno 2) No such file or directory
+	Code 12 Subcode 2
+...
+009 (1253270.000.000) 2025-07-17 18:13:43 Job was aborted.
+	via condor_rm (by user achihwan)
+
+	Job terminated by itself at 2025-07-17T09:05:56Z (using method 0: OF_ITS_OWN_ACCORD).
+...
+000 (1253335.000.000) 2025-07-17 18:13:48 Job submitted from host: <172.30.1.200:9618?addrs=172.30.1.200-9618&alias=tamsa2&noUDP&sock=schedd_2531_a24a>
+...
+040 (1253335.000.000) 2025-07-17 18:15:50 Started transferring input files
+	Transferring to host: <172.30.1.214:9618?addrs=172.30.1.214-9618&alias=node-w14.localdomain&noUDP&sock=slot1_28_5193_b02c_91359>
+...
+040 (1253335.000.000) 2025-07-17 18:15:54 Finished transferring input files
+...
+001 (1253335.000.000) 2025-07-17 18:15:54 Job executing on host: <172.30.1.214:9618?addrs=172.30.1.214-9618&alias=node-w14.localdomain&noUDP&sock=startd_5159_392e>
+	SlotName: slot1_28@node-w14.localdomain
+	CondorScratchDir = "/var/lib/condor/execute/dir_816026"
+	Cpus = 2
+	Disk = 751616
+	GPUs = 0
+	Memory = 16000
+...
+006 (1253335.000.000) 2025-07-17 18:16:07 Image size of job updated: 796796
+	779  -  MemoryUsage of job (MB)
+	796796  -  ResidentSetSize of job (KB)
+...
+006 (1253335.000.000) 2025-07-17 18:16:24 Image size of job updated: 2287712
+	2149  -  MemoryUsage of job (MB)
+	2199800  -  ResidentSetSize of job (KB)
+...
+040 (1253335.000.000) 2025-07-17 18:16:25 Started transferring output files
+...
+040 (1253335.000.000) 2025-07-17 18:16:25 Finished transferring output files
+...
+021 (1253335.000.000) 2025-07-17 18:16:25 Error from starter on slot1_28@node-w14.localdomain:
+	STARTER at 172.30.1.214 failed to send file(s) to <172.30.1.200:9618>: |Error: reading from file /var/lib/condor/execute/dir_816026/*.png: (errno 2) No such file or directory; SHADOW failed to receive file(s) from <172.30.1.214:42981>
+	Code 13 Subcode 2
+...
+004 (1253335.000.000) 2025-07-17 18:16:25 Job was evicted.
+	(0) CPU times
+		Usr 0 00:00:25, Sys 0 00:00:04  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	11841  -  Run Bytes Sent By Job
+	690287424  -  Run Bytes Received By Job
+	Transfer output files failure at execution point slot1_28@node-w14.localdomain while sending files to access point tamsa2. Details: reading from file /var/lib/condor/execute/dir_816026/*.png: (errno 2) No such file or directory
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0        2         2 
+	   Disk (KB)            :  2774371   750000    751616 
+	   GPUs                 :                           0 
+	   Memory (MB)          :     2149    16000     16000 
+	   TimeExecute (s)      :       30                    
+	   TimeSlotBusy (s)     :       35                    
+...
+012 (1253335.000.000) 2025-07-17 18:16:25 Job was held.
+	Transfer output files failure at execution point slot1_28@node-w14.localdomain while sending files to access point tamsa2. Details: reading from file /var/lib/condor/execute/dir_816026/*.png: (errno 2) No such file or directory
+	Code 12 Subcode 2
+...
+009 (1253335.000.000) 2025-07-17 18:23:21 Job was aborted.
+	via condor_rm (by user achihwan)
+
+	Job terminated by itself at 2025-07-17T09:16:24Z (using method 0: OF_ITS_OWN_ACCORD).
+...
+000 (1253415.000.000) 2025-07-17 18:23:25 Job submitted from host: <172.30.1.200:9618?addrs=172.30.1.200-9618&alias=tamsa2&noUDP&sock=schedd_2531_a24a>
+...
+040 (1253415.000.000) 2025-07-17 18:23:50 Started transferring input files
+	Transferring to host: <172.30.1.218:9618?addrs=172.30.1.218-9618&alias=node-w18.localdomain&noUDP&sock=slot1_24_5306_4e91_96583>
+...
+040 (1253415.000.000) 2025-07-17 18:23:55 Finished transferring input files
+...
+001 (1253415.000.000) 2025-07-17 18:23:55 Job executing on host: <172.30.1.218:9618?addrs=172.30.1.218-9618&alias=node-w18.localdomain&noUDP&sock=startd_5272_bb62>
+	SlotName: slot1_24@node-w18.localdomain
+	CondorScratchDir = "/var/lib/condor/execute/dir_2110616"
+	Cpus = 2
+	Disk = 751616
+	GPUs = 0
+	Memory = 16000
+...
+006 (1253415.000.000) 2025-07-17 18:24:08 Image size of job updated: 734452
+	718  -  MemoryUsage of job (MB)
+	734452  -  ResidentSetSize of job (KB)
+...
+006 (1253415.000.000) 2025-07-17 18:24:27 Image size of job updated: 2258588
+	2149  -  MemoryUsage of job (MB)
+	2199800  -  ResidentSetSize of job (KB)
+...
+040 (1253415.000.000) 2025-07-17 18:24:28 Started transferring output files
+...
+040 (1253415.000.000) 2025-07-17 18:24:28 Finished transferring output files
+...
+005 (1253415.000.000) 2025-07-17 18:24:28 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:26, Sys 0 00:00:04  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:26, Sys 0 00:00:04  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	11590  -  Run Bytes Sent By Job
+	690287488  -  Run Bytes Received By Job
+	11590  -  Total Bytes Sent By Job
+	690287488  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 2         2 
+	   Disk (KB)            :  2774364   750000    751616 
+	   GPUs                 :                           0 
+	   Memory (MB)          :     2149    16000     16000 
+	   TimeExecute (s)      :       32                    
+	   TimeSlotBusy (s)     :       43                    
+
+	Job terminated of its own accord at 2025-07-17T09:24:27Z with exit-code 0.
+...
+000 (1253475.000.000) 2025-07-17 18:29:03 Job submitted from host: <172.30.1.200:9618?addrs=172.30.1.200-9618&alias=tamsa2&noUDP&sock=schedd_2531_a24a>
+...
+040 (1253475.000.000) 2025-07-17 18:29:23 Started transferring input files
+	Transferring to host: <172.30.1.221:9618?addrs=172.30.1.221-9618&alias=node-w21.localdomain&noUDP&sock=slot1_30_6000_4aed_140883>
+...
+040 (1253475.000.000) 2025-07-17 18:29:26 Finished transferring input files
+...
+001 (1253475.000.000) 2025-07-17 18:29:26 Job executing on host: <172.30.1.221:9618?addrs=172.30.1.221-9618&alias=node-w21.localdomain&noUDP&sock=startd_5966_c21c>
+	SlotName: slot1_30@node-w21.localdomain
+	CondorScratchDir = "/var/lib/condor/execute/dir_2426112"
+	Cpus = 2
+	Disk = 751616
+	GPUs = 0
+	Memory = 16000
+...
+006 (1253475.000.000) 2025-07-17 18:29:40 Image size of job updated: 776984
+	759  -  MemoryUsage of job (MB)
+	776984  -  ResidentSetSize of job (KB)
+...
+006 (1253475.000.000) 2025-07-17 18:30:00 Image size of job updated: 2199800
+	2149  -  MemoryUsage of job (MB)
+	2199800  -  ResidentSetSize of job (KB)
+...
+040 (1253475.000.000) 2025-07-17 18:30:01 Started transferring output files
+...
+040 (1253475.000.000) 2025-07-17 18:30:01 Finished transferring output files
+...
+005 (1253475.000.000) 2025-07-17 18:30:01 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:25, Sys 0 00:00:04  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:25, Sys 0 00:00:04  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	11590  -  Run Bytes Sent By Job
+	690288000  -  Run Bytes Received By Job
+	11590  -  Total Bytes Sent By Job
+	690288000  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 2         2 
+	   Disk (KB)            :  2774365   750000    751616 
+	   GPUs                 :                           0 
+	   Memory (MB)          :     2149    16000     16000 
+	   TimeExecute (s)      :       34                    
+	   TimeSlotBusy (s)     :       38                    
+
+	Job terminated of its own accord at 2025-07-17T09:30:00Z with exit-code 0.
+...

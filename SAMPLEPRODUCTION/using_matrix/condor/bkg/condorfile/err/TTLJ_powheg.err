@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/var/lib/condor/execute/dir_773401/run_TTLJ_powheg.py", line 461, in <module>
+    info = json.load(open("/data6/Users/achihwan/LRSM_tb_channel/SAMPLEPRODUCTION/using_matrix/background/ForSNU/TTLJ_powheg/"))
+FileNotFoundError: [Errno 2] No such file or directory: '/data6/Users/achihwan/LRSM_tb_channel/SAMPLEPRODUCTION/using_matrix/background/ForSNU/TTLJ_powheg/'
