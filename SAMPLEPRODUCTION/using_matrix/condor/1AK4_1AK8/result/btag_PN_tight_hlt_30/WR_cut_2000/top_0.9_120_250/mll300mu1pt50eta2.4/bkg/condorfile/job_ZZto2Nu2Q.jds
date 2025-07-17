@@ -1,0 +1,15 @@
+executable = /data6/Users/achihwan/LRSM_tb_channel/SAMPLEPRODUCTION/using_matrix/condor/1AK4_1AK8/result/btag_PN_tight_hlt_30/WR_cut_2000/top_0.9_120_250/mll300mu1pt50eta2.4/bkg/condorfile/job_ZZto2Nu2Q.sh
+log = /data6/Users/achihwan/LRSM_tb_channel/SAMPLEPRODUCTION/using_matrix/condor/1AK4_1AK8/result/btag_PN_tight_hlt_30/WR_cut_2000/top_0.9_120_250/mll300mu1pt50eta2.4/bkg/condorfile/log/ZZto2Nu2Q.log
+output = /data6/Users/achihwan/LRSM_tb_channel/SAMPLEPRODUCTION/using_matrix/condor/1AK4_1AK8/result/btag_PN_tight_hlt_30/WR_cut_2000/top_0.9_120_250/mll300mu1pt50eta2.4/bkg/condorfile/out/ZZto2Nu2Q.log
+error = /data6/Users/achihwan/LRSM_tb_channel/SAMPLEPRODUCTION/using_matrix/condor/1AK4_1AK8/result/btag_PN_tight_hlt_30/WR_cut_2000/top_0.9_120_250/mll300mu1pt50eta2.4/bkg/condorfile/err/ZZto2Nu2Q.err
+getenv = True
+should_transfer_files = yes
+RequestCpus = 2
+RequestMemory = 16000
+Transfer_Input_Files = /data6/Users/achihwan/LRSM_tb_channel/SAMPLEPRODUCTION/using_matrix/background/ForSNU/ZZto2Nu2Q.json , /data6/Users/achihwan/LRSM_tb_channel/SAMPLEPRODUCTION/using_matrix/condor/1AK4_1AK8/result/btag_PN_tight_hlt_30/WR_cut_2000/top_0.9_120_250/mll300mu1pt50eta2.4/bkg/scripts/run_ZZto2Nu2Q.py,/data6/Users/achihwan/conda/hepenv.tar.gz
+transfer_output_files = result_ZZto2Nu2Q
+queue 
+
+
+
+

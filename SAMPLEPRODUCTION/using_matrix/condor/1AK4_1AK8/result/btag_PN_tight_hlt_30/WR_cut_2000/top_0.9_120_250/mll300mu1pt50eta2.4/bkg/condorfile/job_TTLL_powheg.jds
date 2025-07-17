@@ -1,0 +1,15 @@
+executable = /data6/Users/achihwan/LRSM_tb_channel/SAMPLEPRODUCTION/using_matrix/condor/1AK4_1AK8/result/btag_PN_tight_hlt_30/WR_cut_2000/top_0.9_120_250/mll300mu1pt50eta2.4/bkg/condorfile/job_TTLL_powheg.sh
+log = /data6/Users/achihwan/LRSM_tb_channel/SAMPLEPRODUCTION/using_matrix/condor/1AK4_1AK8/result/btag_PN_tight_hlt_30/WR_cut_2000/top_0.9_120_250/mll300mu1pt50eta2.4/bkg/condorfile/log/TTLL_powheg.log
+output = /data6/Users/achihwan/LRSM_tb_channel/SAMPLEPRODUCTION/using_matrix/condor/1AK4_1AK8/result/btag_PN_tight_hlt_30/WR_cut_2000/top_0.9_120_250/mll300mu1pt50eta2.4/bkg/condorfile/out/TTLL_powheg.log
+error = /data6/Users/achihwan/LRSM_tb_channel/SAMPLEPRODUCTION/using_matrix/condor/1AK4_1AK8/result/btag_PN_tight_hlt_30/WR_cut_2000/top_0.9_120_250/mll300mu1pt50eta2.4/bkg/condorfile/err/TTLL_powheg.err
+getenv = True
+should_transfer_files = yes
+RequestCpus = 2
+RequestMemory = 16000
+Transfer_Input_Files = /data6/Users/achihwan/LRSM_tb_channel/SAMPLEPRODUCTION/using_matrix/background/ForSNU/TTLL_powheg.json , /data6/Users/achihwan/LRSM_tb_channel/SAMPLEPRODUCTION/using_matrix/condor/1AK4_1AK8/result/btag_PN_tight_hlt_30/WR_cut_2000/top_0.9_120_250/mll300mu1pt50eta2.4/bkg/scripts/run_TTLL_powheg.py,/data6/Users/achihwan/conda/hepenv.tar.gz
+transfer_output_files = result_TTLL_powheg
+queue 
+
+
+
+

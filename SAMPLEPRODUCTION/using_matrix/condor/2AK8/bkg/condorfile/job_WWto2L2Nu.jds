@@ -1,0 +1,15 @@
+executable = /data6/Users/achihwan/LRSM_tb_channel/SAMPLEPRODUCTION/using_matrix/condor/2AK8/bkg/condorfile/job_WWto2L2Nu.sh
+log = /data6/Users/achihwan/LRSM_tb_channel/SAMPLEPRODUCTION/using_matrix/condor/2AK8/bkg/condorfile/log/WWto2L2Nu.log
+output = /data6/Users/achihwan/LRSM_tb_channel/SAMPLEPRODUCTION/using_matrix/condor/2AK8/bkg/condorfile/out/WWto2L2Nu.log
+error = /data6/Users/achihwan/LRSM_tb_channel/SAMPLEPRODUCTION/using_matrix/condor/2AK8/bkg/condorfile/err/WWto2L2Nu.err
+getenv = True
+should_transfer_files = yes
+RequestCpus = 2
+RequestMemory = 16000
+Transfer_Input_Files = /data6/Users/achihwan/LRSM_tb_channel/SAMPLEPRODUCTION/using_matrix/background/ForSNU/WWto2L2Nu.json , /data6/Users/achihwan/LRSM_tb_channel/SAMPLEPRODUCTION/using_matrix/condor/2AK8/bkg/scripts/run_WWto2L2Nu.py,/data6/Users/achihwan/conda/hepenv.tar.gz
+transfer_output_files = result_WWto2L2Nu
+queue 
+
+
+
+

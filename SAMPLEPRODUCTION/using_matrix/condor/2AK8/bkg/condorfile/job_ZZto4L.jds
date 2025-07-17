@@ -1,0 +1,15 @@
+executable = /data6/Users/achihwan/LRSM_tb_channel/SAMPLEPRODUCTION/using_matrix/condor/2AK8/bkg/condorfile/job_ZZto4L.sh
+log = /data6/Users/achihwan/LRSM_tb_channel/SAMPLEPRODUCTION/using_matrix/condor/2AK8/bkg/condorfile/log/ZZto4L.log
+output = /data6/Users/achihwan/LRSM_tb_channel/SAMPLEPRODUCTION/using_matrix/condor/2AK8/bkg/condorfile/out/ZZto4L.log
+error = /data6/Users/achihwan/LRSM_tb_channel/SAMPLEPRODUCTION/using_matrix/condor/2AK8/bkg/condorfile/err/ZZto4L.err
+getenv = True
+should_transfer_files = yes
+RequestCpus = 2
+RequestMemory = 16000
+Transfer_Input_Files = /data6/Users/achihwan/LRSM_tb_channel/SAMPLEPRODUCTION/using_matrix/background/ForSNU/ZZto4L.json , /data6/Users/achihwan/LRSM_tb_channel/SAMPLEPRODUCTION/using_matrix/condor/2AK8/bkg/scripts/run_ZZto4L.py,/data6/Users/achihwan/conda/hepenv.tar.gz
+transfer_output_files = result_ZZto4L
+queue 
+
+
+
+

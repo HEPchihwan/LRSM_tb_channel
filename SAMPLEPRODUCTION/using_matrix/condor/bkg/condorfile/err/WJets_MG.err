@@ -1,4 +1,0 @@
-Traceback (most recent call last):
-  File "/var/lib/condor/execute/dir_2615636/run_WJets_MG.py", line 461, in <module>
-    info = json.load(open("/data6/Users/achihwan/LRSM_tb_channel/SAMPLEPRODUCTION/using_matrix/background/ForSNU/WJets_MG/"))
-FileNotFoundError: [Errno 2] No such file or directory: '/data6/Users/achihwan/LRSM_tb_channel/SAMPLEPRODUCTION/using_matrix/background/ForSNU/WJets_MG/'

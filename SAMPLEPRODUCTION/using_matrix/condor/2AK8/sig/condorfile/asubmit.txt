@@ -1,0 +1,8 @@
+job_WRtoNMutoMuMuTB-HadTop_MWR-1000_MN-700_13p6TeV.jds
+job_WRtoNMutoMuMuTB-HadTop_MWR-3000_MN-1300_13p6TeV.jds
+job_WRtoNMutoMuMuTB-HadTop_MWR-3000_MN-2100_13p6TeV.jds
+job_WRtoNMutoMuMuTB-HadTop_MWR-3000_MN-2900_13p6TeV.jds
+job_WRtoNMutoMuMuTB-HadTop_MWR-5000_MN-2500_13p6TeV.jds
+job_WRtoNMutoMuMuTB-HadTop_MWR-5000_MN-3300_13p6TeV.jds
+job_WRtoNMutoMuMuTB-HadTop_MWR-5000_MN-4100_13p6TeV.jds
+job_WRtoNMutoMuMuTB-HadTop_MWR-5000_MN-4900_13p6TeV.jds
