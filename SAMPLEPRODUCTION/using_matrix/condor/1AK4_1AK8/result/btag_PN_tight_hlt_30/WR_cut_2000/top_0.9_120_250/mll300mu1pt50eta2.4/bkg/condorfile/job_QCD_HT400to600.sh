@@ -5,6 +5,7 @@ echo "PYTHON: $(which python)"
 python run_QCD_HT400to600.py
 mkdir result_QCD_HT400to600 
 cp *.png result_QCD_HT400to600/
+cp *.csv result_QCD_HT400to600/
 cd result_QCD_HT400to600
 
 

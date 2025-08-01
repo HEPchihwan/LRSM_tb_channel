@@ -1,0 +1,15 @@
+executable = /data6/Users/achihwan/LRSM_tb_channel/SAMPLEPRODUCTION/using_matrix/condor/2AK8/result/tight_hlt_30/WR_cut_2000/top_0.9_120_250/mll300mu1pt50eta2.4/bkg/condorfile/job_Tau_C.sh
+log = /data6/Users/achihwan/LRSM_tb_channel/SAMPLEPRODUCTION/using_matrix/condor/2AK8/result/tight_hlt_30/WR_cut_2000/top_0.9_120_250/mll300mu1pt50eta2.4/bkg/condorfile/log/Tau_C.log
+output = /data6/Users/achihwan/LRSM_tb_channel/SAMPLEPRODUCTION/using_matrix/condor/2AK8/result/tight_hlt_30/WR_cut_2000/top_0.9_120_250/mll300mu1pt50eta2.4/bkg/condorfile/out/Tau_C.log
+error = /data6/Users/achihwan/LRSM_tb_channel/SAMPLEPRODUCTION/using_matrix/condor/2AK8/result/tight_hlt_30/WR_cut_2000/top_0.9_120_250/mll300mu1pt50eta2.4/bkg/condorfile/err/Tau_C.err
+getenv = True
+should_transfer_files = yes
+RequestCpus = 2
+RequestMemory = 16000
+Transfer_Input_Files = /data6/Users/achihwan/LRSM_tb_channel/SAMPLEPRODUCTION/using_matrix/background/ForSNU/Tau_C.json , /data6/Users/achihwan/LRSM_tb_channel/SAMPLEPRODUCTION/using_matrix/condor/2AK8/result/tight_hlt_30/WR_cut_2000/top_0.9_120_250/mll300mu1pt50eta2.4/bkg/scripts/run_Tau_C.py,/data6/Users/achihwan/conda/hepenv.tar.gz
+transfer_output_files = result_Tau_C
+queue 
+
+
+
+

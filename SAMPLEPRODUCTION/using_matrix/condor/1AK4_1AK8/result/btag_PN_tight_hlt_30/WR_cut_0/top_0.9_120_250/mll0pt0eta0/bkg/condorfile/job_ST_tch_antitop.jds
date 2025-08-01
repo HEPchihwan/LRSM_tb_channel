@@ -1,12 +1,12 @@
-executable = /data6/Users/achihwan/LRSM_tb_channel/SAMPLEPRODUCTION/using_matrix/condor/bkg/condorfile/job_ST_tch_antitop.sh
-log = /data6/Users/achihwan/LRSM_tb_channel/SAMPLEPRODUCTION/using_matrix/condor/bkg/condorfile/log/ST_tch_antitop.log
-output = /data6/Users/achihwan/LRSM_tb_channel/SAMPLEPRODUCTION/using_matrix/condor/bkg/condorfile/out/ST_tch_antitop.log
-error = /data6/Users/achihwan/LRSM_tb_channel/SAMPLEPRODUCTION/using_matrix/condor/bkg/condorfile/err/ST_tch_antitop.err
+executable = /data6/Users/achihwan/LRSM_tb_channel/SAMPLEPRODUCTION/using_matrix/condor/1AK4_1AK8/result/btag_PN_tight_hlt_30/WR_cut_0/top_0.9_120_250/mll0pt0eta0/bkg/condorfile/job_ST_tch_antitop.sh
+log = /data6/Users/achihwan/LRSM_tb_channel/SAMPLEPRODUCTION/using_matrix/condor/1AK4_1AK8/result/btag_PN_tight_hlt_30/WR_cut_0/top_0.9_120_250/mll0pt0eta0/bkg/condorfile/log/ST_tch_antitop.log
+output = /data6/Users/achihwan/LRSM_tb_channel/SAMPLEPRODUCTION/using_matrix/condor/1AK4_1AK8/result/btag_PN_tight_hlt_30/WR_cut_0/top_0.9_120_250/mll0pt0eta0/bkg/condorfile/out/ST_tch_antitop.log
+error = /data6/Users/achihwan/LRSM_tb_channel/SAMPLEPRODUCTION/using_matrix/condor/1AK4_1AK8/result/btag_PN_tight_hlt_30/WR_cut_0/top_0.9_120_250/mll0pt0eta0/bkg/condorfile/err/ST_tch_antitop.err
 getenv = True
 should_transfer_files = yes
 RequestCpus = 2
 RequestMemory = 16000
-Transfer_Input_Files = /data6/Users/achihwan/LRSM_tb_channel/SAMPLEPRODUCTION/using_matrix/background/ForSNU/ST_tch_antitop.json , /data6/Users/achihwan/LRSM_tb_channel/SAMPLEPRODUCTION/using_matrix/condor/bkg/scripts/run_ST_tch_antitop.py,/data6/Users/achihwan/conda/hepenv.tar.gz
+Transfer_Input_Files = /data6/Users/achihwan/LRSM_tb_channel/SAMPLEPRODUCTION/using_matrix/background/ForSNU/ST_tch_antitop.json , /data6/Users/achihwan/LRSM_tb_channel/SAMPLEPRODUCTION/using_matrix/condor/1AK4_1AK8/result/btag_PN_tight_hlt_30/WR_cut_0/top_0.9_120_250/mll0pt0eta0/bkg/scripts/run_ST_tch_antitop.py,/data6/Users/achihwan/conda/hepenv.tar.gz
 transfer_output_files = result_ST_tch_antitop
 queue 
 

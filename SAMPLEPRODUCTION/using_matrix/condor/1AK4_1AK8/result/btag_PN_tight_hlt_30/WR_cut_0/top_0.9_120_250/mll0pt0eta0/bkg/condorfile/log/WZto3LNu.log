@@ -1333,3 +1333,90 @@
 
 	Job terminated of its own accord at 2025-07-17T09:34:07Z with exit-code 0.
 ...
+000 (1265753.000.000) 2025-07-21 11:55:37 Job submitted from host: <172.30.1.200:9618?addrs=172.30.1.200-9618&alias=tamsa2&noUDP&sock=schedd_2531_a24a>
+...
+040 (1265753.000.000) 2025-07-21 11:55:43 Started transferring input files
+	Transferring to host: <172.30.1.204:9618?addrs=172.30.1.204-9618&alias=node-w4.localdomain&noUDP&sock=slot1_4_4930_6182_74181>
+...
+040 (1265753.000.000) 2025-07-21 11:55:49 Finished transferring input files
+...
+001 (1265753.000.000) 2025-07-21 11:55:49 Job executing on host: <172.30.1.204:9618?addrs=172.30.1.204-9618&alias=node-w4.localdomain&noUDP&sock=startd_4896_d3c6>
+	SlotName: slot1_4@node-w4.localdomain
+	CondorScratchDir = "/var/lib/condor/execute/dir_3223208"
+	Cpus = 2
+	Disk = 751616
+	GPUs = 0
+	Memory = 16000
+...
+006 (1265753.000.000) 2025-07-21 11:56:03 Image size of job updated: 1144872
+	1119  -  MemoryUsage of job (MB)
+	1144872  -  ResidentSetSize of job (KB)
+...
+006 (1265753.000.000) 2025-07-21 11:56:44 Image size of job updated: 2817996
+	2149  -  MemoryUsage of job (MB)
+	2199792  -  ResidentSetSize of job (KB)
+...
+004 (1265753.000.000) 2025-07-21 11:56:45 Job was evicted.
+	(0) CPU times
+		Usr 0 00:00:45, Sys 0 00:00:05  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	690284736  -  Run Bytes Received By Job
+	Partitionable Resources :      Usage  Request Allocated 
+	   Cpus                 :       0.96        2         2 
+	   Disk (KB)            : 2774360      750000    751616 
+	   GPUs                 :                             0 
+	   Memory (MB)          :    2149       16000     16000 
+	   TimeExecute (s)      :      54                       
+	   TimeSlotBusy (s)     :      63                       
+...
+009 (1265753.000.000) 2025-07-21 11:56:45 Job was aborted.
+	via condor_rm (by user achihwan)
+...
+000 (1265813.000.000) 2025-07-21 11:56:57 Job submitted from host: <172.30.1.200:9618?addrs=172.30.1.200-9618&alias=tamsa2&noUDP&sock=schedd_2531_a24a>
+...
+040 (1265813.000.000) 2025-07-21 11:57:07 Started transferring input files
+	Transferring to host: <172.30.1.204:9618?addrs=172.30.1.204-9618&alias=node-w4.localdomain&noUDP&sock=slot1_4_4930_6182_74199>
+...
+040 (1265813.000.000) 2025-07-21 11:57:11 Finished transferring input files
+...
+001 (1265813.000.000) 2025-07-21 11:57:12 Job executing on host: <172.30.1.204:9618?addrs=172.30.1.204-9618&alias=node-w4.localdomain&noUDP&sock=startd_4896_d3c6>
+	SlotName: slot1_4@node-w4.localdomain
+	CondorScratchDir = "/var/lib/condor/execute/dir_3223570"
+	Cpus = 2
+	Disk = 751616
+	GPUs = 0
+	Memory = 16000
+...
+006 (1265813.000.000) 2025-07-21 11:57:25 Image size of job updated: 1015240
+	992  -  MemoryUsage of job (MB)
+	1015240  -  ResidentSetSize of job (KB)
+...
+006 (1265813.000.000) 2025-07-21 12:00:26 Image size of job updated: 3883828
+	2149  -  MemoryUsage of job (MB)
+	2200052  -  ResidentSetSize of job (KB)
+...
+040 (1265813.000.000) 2025-07-21 12:00:27 Started transferring output files
+...
+040 (1265813.000.000) 2025-07-21 12:00:27 Finished transferring output files
+...
+005 (1265813.000.000) 2025-07-21 12:00:27 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:02:47, Sys 0 00:00:12  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:02:47, Sys 0 00:00:12  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	110209  -  Run Bytes Sent By Job
+	690284736  -  Run Bytes Received By Job
+	110209  -  Total Bytes Sent By Job
+	690284736  -  Total Bytes Received By Job
+	Partitionable Resources :      Usage  Request Allocated 
+	   Cpus                 :       0.89        2         2 
+	   Disk (KB)            : 2774565      750000    751616 
+	   GPUs                 :                             0 
+	   Memory (MB)          :    2149       16000     16000 
+	   TimeExecute (s)      :     194                       
+	   TimeSlotBusy (s)     :     200                       
+
+	Job terminated of its own accord at 2025-07-21T03:00:26Z with exit-code 0.
+...

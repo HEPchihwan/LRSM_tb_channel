@@ -5,6 +5,7 @@ echo "PYTHON: $(which python)"
 python run_WWto2L2Nu.py
 mkdir result_WWto2L2Nu 
 cp *.png result_WWto2L2Nu/
+cp *.csv result_WWto2L2Nu/
 cd result_WWto2L2Nu
 
 

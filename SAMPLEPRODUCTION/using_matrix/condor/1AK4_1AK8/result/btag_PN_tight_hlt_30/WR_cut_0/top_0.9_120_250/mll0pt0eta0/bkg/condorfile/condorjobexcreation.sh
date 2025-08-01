@@ -11,7 +11,7 @@ TEMPLATE_JDS="template_ex.sh"
 JSON_DIR="/data6/Users/achihwan/LRSM_tb_channel/SAMPLEPRODUCTION/using_matrix/background/ForSNU"
 
 # 출력할 submit 스크립트 폴더
-OUT_DIR="/data6/Users/achihwan/LRSM_tb_channel/SAMPLEPRODUCTION/using_matrix/condor/bkg/condorfile"
+OUT_DIR="/data6/Users/achihwan/LRSM_tb_channel/SAMPLEPRODUCTION/using_matrix/condor/1AK4_1AK8/result/btag_PN_tight_hlt_30/WR_cut_0/top_0.9_120_250/mll0pt0eta0/bkg/condorfile"
 mkdir -p "${OUT_DIR}"
 
 count=0

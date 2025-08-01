@@ -1,0 +1,664 @@
+000 (1255868.000.000) 2025-07-18 11:44:03 Job submitted from host: <172.30.1.200:9618?addrs=172.30.1.200-9618&alias=tamsa2&noUDP&sock=schedd_2531_a24a>
+...
+040 (1255868.000.000) 2025-07-18 11:44:14 Started transferring input files
+	Transferring to host: <172.30.1.216:9618?addrs=172.30.1.216-9618&alias=node-w16.localdomain&noUDP&sock=slot1_17_5179_d2ec_97881>
+...
+040 (1255868.000.000) 2025-07-18 11:44:18 Finished transferring input files
+...
+001 (1255868.000.000) 2025-07-18 11:44:18 Job executing on host: <172.30.1.216:9618?addrs=172.30.1.216-9618&alias=node-w16.localdomain&noUDP&sock=startd_5145_9edb>
+	SlotName: slot1_17@node-w16.localdomain
+	CondorScratchDir = "/var/lib/condor/execute/dir_4037216"
+	Cpus = 2
+	Disk = 751616
+	GPUs = 0
+	Memory = 16000
+...
+006 (1255868.000.000) 2025-07-18 11:44:32 Image size of job updated: 1040548
+	1017  -  MemoryUsage of job (MB)
+	1040548  -  ResidentSetSize of job (KB)
+...
+006 (1255868.000.000) 2025-07-18 11:49:33 Image size of job updated: 5282440
+	3433  -  MemoryUsage of job (MB)
+	3514692  -  ResidentSetSize of job (KB)
+...
+006 (1255868.000.000) 2025-07-18 11:51:12 Image size of job updated: 5282440
+	3645  -  MemoryUsage of job (MB)
+	3732312  -  ResidentSetSize of job (KB)
+...
+004 (1255868.000.000) 2025-07-18 11:51:12 Job was evicted.
+	(0) CPU times
+		Usr 0 00:05:50, Sys 0 00:00:28  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	690291264  -  Run Bytes Received By Job
+	Partitionable Resources :      Usage  Request Allocated 
+	   Cpus                 :       0.98        2         2 
+	   Disk (KB)            : 2774379      750000    751616 
+	   GPUs                 :                             0 
+	   Memory (MB)          :    3645       16000     16000 
+	   TimeExecute (s)      :     414                       
+	   TimeSlotBusy (s)     :     418                       
+...
+009 (1255868.000.000) 2025-07-18 11:51:12 Job was aborted.
+	via condor_rm (by user achihwan)
+...
+000 (1255961.000.000) 2025-07-18 11:55:20 Job submitted from host: <172.30.1.200:9618?addrs=172.30.1.200-9618&alias=tamsa2&noUDP&sock=schedd_2531_a24a>
+...
+040 (1255961.000.000) 2025-07-18 11:55:21 Started transferring input files
+	Transferring to host: <172.30.1.212:9618?addrs=172.30.1.212-9618&alias=node-w12.localdomain&noUDP&sock=slot1_2_4978_3384_99699>
+...
+040 (1255961.000.000) 2025-07-18 11:55:26 Finished transferring input files
+...
+001 (1255961.000.000) 2025-07-18 11:55:26 Job executing on host: <172.30.1.212:9618?addrs=172.30.1.212-9618&alias=node-w12.localdomain&noUDP&sock=startd_4944_c052>
+	SlotName: slot1_2@node-w12.localdomain
+	CondorScratchDir = "/var/lib/condor/execute/dir_2558648"
+	Cpus = 2
+	Disk = 751616
+	GPUs = 0
+	Memory = 16000
+...
+006 (1255961.000.000) 2025-07-18 11:55:39 Image size of job updated: 909008
+	888  -  MemoryUsage of job (MB)
+	909008  -  ResidentSetSize of job (KB)
+...
+006 (1255961.000.000) 2025-07-18 12:00:39 Image size of job updated: 5817432
+	3169  -  MemoryUsage of job (MB)
+	3244196  -  ResidentSetSize of job (KB)
+...
+006 (1255961.000.000) 2025-07-18 12:05:40 Image size of job updated: 5817432
+	3850  -  MemoryUsage of job (MB)
+	3942136  -  ResidentSetSize of job (KB)
+...
+006 (1255961.000.000) 2025-07-18 12:10:41 Image size of job updated: 5817432
+	3985  -  MemoryUsage of job (MB)
+	4080092  -  ResidentSetSize of job (KB)
+...
+006 (1255961.000.000) 2025-07-18 12:15:42 Image size of job updated: 7182048
+	5363  -  MemoryUsage of job (MB)
+	5490784  -  ResidentSetSize of job (KB)
+...
+006 (1255961.000.000) 2025-07-18 12:20:42 Image size of job updated: 7182048
+	5399  -  MemoryUsage of job (MB)
+	5527696  -  ResidentSetSize of job (KB)
+...
+006 (1255961.000.000) 2025-07-18 12:25:43 Image size of job updated: 7293320
+	5399  -  MemoryUsage of job (MB)
+	5527696  -  ResidentSetSize of job (KB)
+...
+006 (1255961.000.000) 2025-07-18 12:35:44 Image size of job updated: 7293320
+	5481  -  MemoryUsage of job (MB)
+	5611700  -  ResidentSetSize of job (KB)
+...
+006 (1255961.000.000) 2025-07-18 12:40:45 Image size of job updated: 7474088
+	5481  -  MemoryUsage of job (MB)
+	5611700  -  ResidentSetSize of job (KB)
+...
+006 (1255961.000.000) 2025-07-18 12:45:45 Image size of job updated: 8035392
+	5849  -  MemoryUsage of job (MB)
+	5989352  -  ResidentSetSize of job (KB)
+...
+040 (1255961.000.000) 2025-07-18 12:52:10 Started transferring output files
+...
+040 (1255961.000.000) 2025-07-18 12:52:10 Finished transferring output files
+...
+005 (1255961.000.000) 2025-07-18 12:52:10 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:37:41, Sys 0 00:14:30  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:37:41, Sys 0 00:14:30  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	123179  -  Run Bytes Sent By Job
+	690291712  -  Run Bytes Received By Job
+	123179  -  Total Bytes Sent By Job
+	690291712  -  Total Bytes Received By Job
+	Partitionable Resources :      Usage  Request Allocated 
+	   Cpus                 :       0.82        2         2 
+	   Disk (KB)            : 2774583      750000    751616 
+	   GPUs                 :                             0 
+	   Memory (MB)          :    5849       16000     16000 
+	   TimeExecute (s)      :    3404                       
+	   TimeSlotBusy (s)     :    3409                       
+
+	Job terminated of its own accord at 2025-07-18T03:52:10Z with exit-code 0.
+...
+000 (1256782.000.000) 2025-07-18 16:31:01 Job submitted from host: <172.30.1.200:9618?addrs=172.30.1.200-9618&alias=tamsa2&noUDP&sock=schedd_2531_a24a>
+...
+040 (1256782.000.000) 2025-07-18 16:31:09 Started transferring input files
+	Transferring to host: <172.30.1.216:9618?addrs=172.30.1.216-9618&alias=node-w16.localdomain&noUDP&sock=slot1_24_5179_d2ec_99243>
+...
+040 (1256782.000.000) 2025-07-18 16:31:13 Finished transferring input files
+...
+001 (1256782.000.000) 2025-07-18 16:31:13 Job executing on host: <172.30.1.216:9618?addrs=172.30.1.216-9618&alias=node-w16.localdomain&noUDP&sock=startd_5145_9edb>
+	SlotName: slot1_24@node-w16.localdomain
+	CondorScratchDir = "/var/lib/condor/execute/dir_161440"
+	Cpus = 2
+	Disk = 751616
+	GPUs = 0
+	Memory = 16000
+...
+006 (1256782.000.000) 2025-07-18 16:31:27 Image size of job updated: 996716
+	974  -  MemoryUsage of job (MB)
+	996716  -  ResidentSetSize of job (KB)
+...
+006 (1256782.000.000) 2025-07-18 16:36:29 Image size of job updated: 4950904
+	3641  -  MemoryUsage of job (MB)
+	3728268  -  ResidentSetSize of job (KB)
+...
+006 (1256782.000.000) 2025-07-18 16:41:30 Image size of job updated: 4950904
+	3785  -  MemoryUsage of job (MB)
+	3875148  -  ResidentSetSize of job (KB)
+...
+006 (1256782.000.000) 2025-07-18 16:46:30 Image size of job updated: 7154272
+	3837  -  MemoryUsage of job (MB)
+	3928276  -  ResidentSetSize of job (KB)
+...
+006 (1256782.000.000) 2025-07-18 16:51:31 Image size of job updated: 7154272
+	3872  -  MemoryUsage of job (MB)
+	3964472  -  ResidentSetSize of job (KB)
+...
+006 (1256782.000.000) 2025-07-18 16:56:33 Image size of job updated: 7154272
+	4215  -  MemoryUsage of job (MB)
+	4315316  -  ResidentSetSize of job (KB)
+...
+006 (1256782.000.000) 2025-07-18 17:01:34 Image size of job updated: 7154272
+	4491  -  MemoryUsage of job (MB)
+	4597768  -  ResidentSetSize of job (KB)
+...
+006 (1256782.000.000) 2025-07-18 17:06:34 Image size of job updated: 7490352
+	4676  -  MemoryUsage of job (MB)
+	4788080  -  ResidentSetSize of job (KB)
+...
+040 (1256782.000.000) 2025-07-18 17:13:45 Started transferring output files
+...
+040 (1256782.000.000) 2025-07-18 17:13:45 Finished transferring output files
+...
+005 (1256782.000.000) 2025-07-18 17:13:46 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:35:10, Sys 0 00:02:16  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:35:10, Sys 0 00:02:16  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	123150  -  Run Bytes Sent By Job
+	690291712  -  Run Bytes Received By Job
+	123150  -  Total Bytes Sent By Job
+	690291712  -  Total Bytes Received By Job
+	Partitionable Resources :      Usage  Request Allocated 
+	   Cpus                 :       0.97        2         2 
+	   Disk (KB)            : 2774583      750000    751616 
+	   GPUs                 :                             0 
+	   Memory (MB)          :    4676       16000     16000 
+	   TimeExecute (s)      :    2552                       
+	   TimeSlotBusy (s)     :    2557                       
+
+	Job terminated of its own accord at 2025-07-18T08:13:45Z with exit-code 0.
+...
+000 (1256940.000.000) 2025-07-18 18:02:19 Job submitted from host: <172.30.1.200:9618?addrs=172.30.1.200-9618&alias=tamsa2&noUDP&sock=schedd_2531_a24a>
+...
+040 (1256940.000.000) 2025-07-18 18:02:24 Started transferring input files
+	Transferring to host: <172.30.1.216:9618?addrs=172.30.1.216-9618&alias=node-w16.localdomain&noUDP&sock=slot1_9_5179_d2ec_99533>
+...
+040 (1256940.000.000) 2025-07-18 18:02:29 Finished transferring input files
+...
+001 (1256940.000.000) 2025-07-18 18:02:29 Job executing on host: <172.30.1.216:9618?addrs=172.30.1.216-9618&alias=node-w16.localdomain&noUDP&sock=startd_5145_9edb>
+	SlotName: slot1_9@node-w16.localdomain
+	CondorScratchDir = "/var/lib/condor/execute/dir_209464"
+	Cpus = 2
+	Disk = 751616
+	GPUs = 0
+	Memory = 16000
+...
+006 (1256940.000.000) 2025-07-18 18:02:43 Image size of job updated: 915592
+	895  -  MemoryUsage of job (MB)
+	915592  -  ResidentSetSize of job (KB)
+...
+006 (1256940.000.000) 2025-07-18 18:02:55 Image size of job updated: 2199792
+	2149  -  MemoryUsage of job (MB)
+	2199792  -  ResidentSetSize of job (KB)
+...
+040 (1256940.000.000) 2025-07-18 18:02:55 Started transferring output files
+...
+040 (1256940.000.000) 2025-07-18 18:02:55 Finished transferring output files
+...
+005 (1256940.000.000) 2025-07-18 18:02:55 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:19, Sys 0 00:00:04  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:19, Sys 0 00:00:04  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	282  -  Run Bytes Sent By Job
+	690294336  -  Run Bytes Received By Job
+	282  -  Total Bytes Sent By Job
+	690294336  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0        2         2 
+	   Disk (KB)            :  2774367   750000    751616 
+	   GPUs                 :                           0 
+	   Memory (MB)          :     2149    16000     16000 
+	   TimeExecute (s)      :       26                    
+	   TimeSlotBusy (s)     :       31                    
+
+	Job terminated of its own accord at 2025-07-18T09:02:55Z with exit-code 0.
+...
+000 (1257143.000.000) 2025-07-18 18:27:19 Job submitted from host: <172.30.1.200:9618?addrs=172.30.1.200-9618&alias=tamsa2&noUDP&sock=schedd_2531_a24a>
+...
+040 (1257143.000.000) 2025-07-18 18:27:20 Started transferring input files
+	Transferring to host: <172.30.1.216:9618?addrs=172.30.1.216-9618&alias=node-w16.localdomain&noUDP&sock=slot1_7_5179_d2ec_99686>
+...
+040 (1257143.000.000) 2025-07-18 18:27:27 Finished transferring input files
+...
+001 (1257143.000.000) 2025-07-18 18:27:27 Job executing on host: <172.30.1.216:9618?addrs=172.30.1.216-9618&alias=node-w16.localdomain&noUDP&sock=startd_5145_9edb>
+	SlotName: slot1_7@node-w16.localdomain
+	CondorScratchDir = "/var/lib/condor/execute/dir_232761"
+	Cpus = 2
+	Disk = 751616
+	GPUs = 0
+	Memory = 16000
+...
+006 (1257143.000.000) 2025-07-18 18:27:40 Image size of job updated: 732632
+	716  -  MemoryUsage of job (MB)
+	732632  -  ResidentSetSize of job (KB)
+...
+006 (1257143.000.000) 2025-07-18 18:32:40 Image size of job updated: 5852940
+	3383  -  MemoryUsage of job (MB)
+	3463412  -  ResidentSetSize of job (KB)
+...
+006 (1257143.000.000) 2025-07-18 18:37:41 Image size of job updated: 5852940
+	3733  -  MemoryUsage of job (MB)
+	3822156  -  ResidentSetSize of job (KB)
+...
+006 (1257143.000.000) 2025-07-18 18:42:42 Image size of job updated: 6906368
+	4201  -  MemoryUsage of job (MB)
+	4301080  -  ResidentSetSize of job (KB)
+...
+006 (1257143.000.000) 2025-07-18 18:47:43 Image size of job updated: 6906368
+	5169  -  MemoryUsage of job (MB)
+	5292236  -  ResidentSetSize of job (KB)
+...
+006 (1257143.000.000) 2025-07-18 19:02:43 Image size of job updated: 7304772
+	5169  -  MemoryUsage of job (MB)
+	5292236  -  ResidentSetSize of job (KB)
+...
+004 (1257143.000.000) 2025-07-18 19:06:03 Job was evicted.
+	(0) CPU times
+		Usr 0 00:31:23, Sys 0 00:02:45  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	690294592  -  Run Bytes Received By Job
+	Partitionable Resources :      Usage  Request Allocated 
+	   Cpus                 :       0.91        2         2 
+	   Disk (KB)            : 2774388      750000    751616 
+	   GPUs                 :                             0 
+	   Memory (MB)          :    5169       16000     16000 
+	   TimeExecute (s)      :    2316                       
+	   TimeSlotBusy (s)     :    2323                       
+...
+009 (1257143.000.000) 2025-07-18 19:06:03 Job was aborted.
+	via condor_rm (by user achihwan)
+...
+000 (1257337.000.000) 2025-07-18 19:07:08 Job submitted from host: <172.30.1.200:9618?addrs=172.30.1.200-9618&alias=tamsa2&noUDP&sock=schedd_2531_a24a>
+...
+040 (1257337.000.000) 2025-07-18 19:07:19 Started transferring input files
+	Transferring to host: <172.30.1.212:9618?addrs=172.30.1.212-9618&alias=node-w12.localdomain&noUDP&sock=slot1_21_4978_3384_101373>
+...
+040 (1257337.000.000) 2025-07-18 19:07:24 Finished transferring input files
+...
+001 (1257337.000.000) 2025-07-18 19:07:24 Job executing on host: <172.30.1.212:9618?addrs=172.30.1.212-9618&alias=node-w12.localdomain&noUDP&sock=startd_4944_c052>
+	SlotName: slot1_21@node-w12.localdomain
+	CondorScratchDir = "/var/lib/condor/execute/dir_2859483"
+	Cpus = 2
+	Disk = 751616
+	GPUs = 0
+	Memory = 16000
+...
+006 (1257337.000.000) 2025-07-18 19:07:38 Image size of job updated: 996648
+	974  -  MemoryUsage of job (MB)
+	996648  -  ResidentSetSize of job (KB)
+...
+006 (1257337.000.000) 2025-07-18 19:10:55 Image size of job updated: 4756556
+	2149  -  MemoryUsage of job (MB)
+	2199804  -  ResidentSetSize of job (KB)
+...
+004 (1257337.000.000) 2025-07-18 19:10:55 Job was evicted.
+	(0) CPU times
+		Usr 0 00:02:46, Sys 0 00:00:29  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	690295424  -  Run Bytes Received By Job
+	Partitionable Resources :      Usage  Request Allocated 
+	   Cpus                 :       0.79        2         2 
+	   Disk (KB)            : 2774381      750000    751616 
+	   GPUs                 :                             0 
+	   Memory (MB)          :    2149       16000     16000 
+	   TimeExecute (s)      :     209                       
+	   TimeSlotBusy (s)     :     219                       
+...
+009 (1257337.000.000) 2025-07-18 19:10:55 Job was aborted.
+	via condor_rm (by user achihwan)
+...
+000 (1257587.000.000) 2025-07-18 19:18:57 Job submitted from host: <172.30.1.200:9618?addrs=172.30.1.200-9618&alias=tamsa2&noUDP&sock=schedd_2531_a24a>
+...
+040 (1257587.000.000) 2025-07-18 19:19:03 Started transferring input files
+	Transferring to host: <172.30.1.218:9618?addrs=172.30.1.218-9618&alias=node-w18.localdomain&noUDP&sock=slot1_28_5306_4e91_98092>
+...
+040 (1257587.000.000) 2025-07-18 19:19:11 Finished transferring input files
+...
+001 (1257587.000.000) 2025-07-18 19:19:11 Job executing on host: <172.30.1.218:9618?addrs=172.30.1.218-9618&alias=node-w18.localdomain&noUDP&sock=startd_5272_bb62>
+	SlotName: slot1_28@node-w18.localdomain
+	CondorScratchDir = "/var/lib/condor/execute/dir_2468526"
+	Cpus = 2
+	Disk = 751616
+	GPUs = 0
+	Memory = 16000
+...
+006 (1257587.000.000) 2025-07-18 19:19:25 Image size of job updated: 1068808
+	1044  -  MemoryUsage of job (MB)
+	1068808  -  ResidentSetSize of job (KB)
+...
+006 (1257587.000.000) 2025-07-18 19:24:26 Image size of job updated: 5759928
+	3359  -  MemoryUsage of job (MB)
+	3439308  -  ResidentSetSize of job (KB)
+...
+006 (1257587.000.000) 2025-07-18 19:29:26 Image size of job updated: 5818976
+	3591  -  MemoryUsage of job (MB)
+	3676592  -  ResidentSetSize of job (KB)
+...
+006 (1257587.000.000) 2025-07-18 19:34:27 Image size of job updated: 6346876
+	4041  -  MemoryUsage of job (MB)
+	4137528  -  ResidentSetSize of job (KB)
+...
+006 (1257587.000.000) 2025-07-18 19:39:27 Image size of job updated: 6443832
+	4240  -  MemoryUsage of job (MB)
+	4341516  -  ResidentSetSize of job (KB)
+...
+006 (1257587.000.000) 2025-07-18 19:44:28 Image size of job updated: 6443832
+	4553  -  MemoryUsage of job (MB)
+	4661928  -  ResidentSetSize of job (KB)
+...
+006 (1257587.000.000) 2025-07-18 19:49:29 Image size of job updated: 7717200
+	4746  -  MemoryUsage of job (MB)
+	4859268  -  ResidentSetSize of job (KB)
+...
+006 (1257587.000.000) 2025-07-18 19:54:29 Image size of job updated: 7717200
+	4870  -  MemoryUsage of job (MB)
+	4986760  -  ResidentSetSize of job (KB)
+...
+040 (1257587.000.000) 2025-07-18 19:56:03 Started transferring output files
+...
+040 (1257587.000.000) 2025-07-18 19:56:03 Finished transferring output files
+...
+005 (1257587.000.000) 2025-07-18 19:56:04 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:27:29, Sys 0 00:02:45  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:27:29, Sys 0 00:02:45  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	126292  -  Run Bytes Sent By Job
+	690295488  -  Run Bytes Received By Job
+	126292  -  Total Bytes Sent By Job
+	690295488  -  Total Bytes Received By Job
+	Partitionable Resources :      Usage  Request Allocated 
+	   Cpus                 :       0.80        2         2 
+	   Disk (KB)            : 2774591      750000    751616 
+	   GPUs                 :                             0 
+	   Memory (MB)          :    4870       16000     16000 
+	   TimeExecute (s)      :    2212                       
+	   TimeSlotBusy (s)     :    2222                       
+
+	Job terminated of its own accord at 2025-07-18T10:56:03Z with exit-code 0.
+...
+000 (1257746.000.000) 2025-07-18 22:48:29 Job submitted from host: <172.30.1.200:9618?addrs=172.30.1.200-9618&alias=tamsa2&noUDP&sock=schedd_2531_a24a>
+...
+040 (1257746.000.000) 2025-07-18 22:48:29 Started transferring input files
+	Transferring to host: <172.30.1.216:9618?addrs=172.30.1.216-9618&alias=node-w16.localdomain&noUDP&sock=slot1_25_5179_d2ec_100098>
+...
+040 (1257746.000.000) 2025-07-18 22:48:34 Finished transferring input files
+...
+001 (1257746.000.000) 2025-07-18 22:48:34 Job executing on host: <172.30.1.216:9618?addrs=172.30.1.216-9618&alias=node-w16.localdomain&noUDP&sock=startd_5145_9edb>
+	SlotName: slot1_25@node-w16.localdomain
+	CondorScratchDir = "/var/lib/condor/execute/dir_473079"
+	Cpus = 2
+	Disk = 751616
+	GPUs = 0
+	Memory = 16000
+...
+006 (1257746.000.000) 2025-07-18 22:48:47 Image size of job updated: 911604
+	891  -  MemoryUsage of job (MB)
+	911604  -  ResidentSetSize of job (KB)
+...
+006 (1257746.000.000) 2025-07-18 22:48:59 Image size of job updated: 2264868
+	2149  -  MemoryUsage of job (MB)
+	2199804  -  ResidentSetSize of job (KB)
+...
+040 (1257746.000.000) 2025-07-18 22:49:00 Started transferring output files
+...
+040 (1257746.000.000) 2025-07-18 22:49:00 Finished transferring output files
+...
+005 (1257746.000.000) 2025-07-18 22:49:00 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:19, Sys 0 00:00:04  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:19, Sys 0 00:00:04  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	14306  -  Run Bytes Sent By Job
+	690294400  -  Run Bytes Received By Job
+	14306  -  Total Bytes Sent By Job
+	690294400  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0        2         2 
+	   Disk (KB)            :  2774381   750000    751616 
+	   GPUs                 :                           0 
+	   Memory (MB)          :     2149    16000     16000 
+	   TimeExecute (s)      :       25                    
+	   TimeSlotBusy (s)     :       31                    
+
+	Job terminated of its own accord at 2025-07-18T13:48:59Z with exit-code 0.
+...
+000 (1257792.000.000) 2025-07-18 23:06:47 Job submitted from host: <172.30.1.200:9618?addrs=172.30.1.200-9618&alias=tamsa2&noUDP&sock=schedd_2531_a24a>
+...
+040 (1257792.000.000) 2025-07-18 23:06:48 Started transferring input files
+	Transferring to host: <172.30.1.216:9618?addrs=172.30.1.216-9618&alias=node-w16.localdomain&noUDP&sock=slot1_17_5179_d2ec_100101>
+...
+040 (1257792.000.000) 2025-07-18 23:06:53 Finished transferring input files
+...
+001 (1257792.000.000) 2025-07-18 23:06:53 Job executing on host: <172.30.1.216:9618?addrs=172.30.1.216-9618&alias=node-w16.localdomain&noUDP&sock=startd_5145_9edb>
+	SlotName: slot1_17@node-w16.localdomain
+	CondorScratchDir = "/var/lib/condor/execute/dir_473739"
+	Cpus = 2
+	Disk = 751616
+	GPUs = 0
+	Memory = 16000
+...
+006 (1257792.000.000) 2025-07-18 23:07:06 Image size of job updated: 944084
+	922  -  MemoryUsage of job (MB)
+	944084  -  ResidentSetSize of job (KB)
+...
+006 (1257792.000.000) 2025-07-18 23:07:36 Image size of job updated: 2729376
+	2149  -  MemoryUsage of job (MB)
+	2199804  -  ResidentSetSize of job (KB)
+...
+040 (1257792.000.000) 2025-07-18 23:07:36 Started transferring output files
+...
+040 (1257792.000.000) 2025-07-18 23:07:36 Finished transferring output files
+...
+005 (1257792.000.000) 2025-07-18 23:07:37 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:36, Sys 0 00:00:05  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:36, Sys 0 00:00:05  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	14261  -  Run Bytes Sent By Job
+	690294400  -  Run Bytes Received By Job
+	14261  -  Total Bytes Sent By Job
+	690294400  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0        2         2 
+	   Disk (KB)            :  2774381   750000    751616 
+	   GPUs                 :                           0 
+	   Memory (MB)          :     2149    16000     16000 
+	   TimeExecute (s)      :       43                    
+	   TimeSlotBusy (s)     :       49                    
+
+	Job terminated of its own accord at 2025-07-18T14:07:36Z with exit-code 0.
+...
+000 (1257855.000.000) 2025-07-18 23:28:57 Job submitted from host: <172.30.1.200:9618?addrs=172.30.1.200-9618&alias=tamsa2&noUDP&sock=schedd_2531_a24a>
+...
+040 (1257855.000.000) 2025-07-18 23:29:02 Started transferring input files
+	Transferring to host: <172.30.1.216:9618?addrs=172.30.1.216-9618&alias=node-w16.localdomain&noUDP&sock=slot1_26_5179_d2ec_100122>
+...
+040 (1257855.000.000) 2025-07-18 23:29:11 Finished transferring input files
+...
+001 (1257855.000.000) 2025-07-18 23:29:11 Job executing on host: <172.30.1.216:9618?addrs=172.30.1.216-9618&alias=node-w16.localdomain&noUDP&sock=startd_5145_9edb>
+	SlotName: slot1_26@node-w16.localdomain
+	CondorScratchDir = "/var/lib/condor/execute/dir_474622"
+	Cpus = 2
+	Disk = 751616
+	GPUs = 0
+	Memory = 16000
+...
+006 (1257855.000.000) 2025-07-18 23:29:24 Image size of job updated: 724676
+	708  -  MemoryUsage of job (MB)
+	724676  -  ResidentSetSize of job (KB)
+...
+006 (1257855.000.000) 2025-07-18 23:34:25 Image size of job updated: 4041208
+	2929  -  MemoryUsage of job (MB)
+	2998788  -  ResidentSetSize of job (KB)
+...
+006 (1257855.000.000) 2025-07-18 23:39:26 Image size of job updated: 4258488
+	4159  -  MemoryUsage of job (MB)
+	4258488  -  ResidentSetSize of job (KB)
+...
+006 (1257855.000.000) 2025-07-18 23:44:26 Image size of job updated: 4450808
+	4159  -  MemoryUsage of job (MB)
+	4258488  -  ResidentSetSize of job (KB)
+...
+006 (1257855.000.000) 2025-07-18 23:49:27 Image size of job updated: 4975684
+	4159  -  MemoryUsage of job (MB)
+	4258488  -  ResidentSetSize of job (KB)
+...
+006 (1257855.000.000) 2025-07-19 00:04:28 Image size of job updated: 5201020
+	4159  -  MemoryUsage of job (MB)
+	4258488  -  ResidentSetSize of job (KB)
+...
+040 (1257855.000.000) 2025-07-19 00:11:52 Started transferring output files
+...
+040 (1257855.000.000) 2025-07-19 00:11:52 Finished transferring output files
+...
+005 (1257855.000.000) 2025-07-19 00:11:52 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:27:56, Sys 0 00:03:09  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:27:56, Sys 0 00:03:09  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	126281  -  Run Bytes Sent By Job
+	690294336  -  Run Bytes Received By Job
+	126281  -  Total Bytes Sent By Job
+	690294336  -  Total Bytes Received By Job
+	Partitionable Resources :      Usage  Request Allocated 
+	   Cpus                 :       0.64        2         2 
+	   Disk (KB)            : 2774590      750000    751616 
+	   GPUs                 :                             0 
+	   Memory (MB)          :    4159       16000     16000 
+	   TimeExecute (s)      :    2560                       
+	   TimeSlotBusy (s)     :    2570                       
+
+	Job terminated of its own accord at 2025-07-18T15:11:51Z with exit-code 0.
+...
+000 (1268630.000.000) 2025-07-21 20:24:01 Job submitted from host: <172.30.1.200:9618?addrs=172.30.1.200-9618&alias=tamsa2&noUDP&sock=schedd_2531_a24a>
+...
+040 (1268630.000.000) 2025-07-21 20:24:20 Started transferring input files
+	Transferring to host: <172.30.1.203:9618?addrs=172.30.1.203-9618&alias=node-w3.localdomain&noUDP&sock=slot1_18_4993_c524_92804>
+...
+040 (1268630.000.000) 2025-07-21 20:24:28 Finished transferring input files
+...
+001 (1268630.000.000) 2025-07-21 20:24:28 Job executing on host: <172.30.1.203:9618?addrs=172.30.1.203-9618&alias=node-w3.localdomain&noUDP&sock=startd_4959_0a3d>
+	SlotName: slot1_18@node-w3.localdomain
+	CondorScratchDir = "/var/lib/condor/execute/dir_609012"
+	Cpus = 2
+	Disk = 751616
+	GPUs = 0
+	Memory = 16000
+...
+006 (1268630.000.000) 2025-07-21 20:24:41 Image size of job updated: 756712
+	739  -  MemoryUsage of job (MB)
+	756712  -  ResidentSetSize of job (KB)
+...
+006 (1268630.000.000) 2025-07-21 20:29:42 Image size of job updated: 3883028
+	3140  -  MemoryUsage of job (MB)
+	3214480  -  ResidentSetSize of job (KB)
+...
+004 (1268630.000.000) 2025-07-21 20:32:02 Job was evicted.
+	(0) CPU times
+		Usr 0 00:05:14, Sys 0 00:00:14  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	690294336  -  Run Bytes Received By Job
+	Partitionable Resources :      Usage  Request Allocated 
+	   Cpus                 :       0.41        2         2 
+	   Disk (KB)            : 2774381      750000    751616 
+	   GPUs                 :                             0 
+	   Memory (MB)          :    3140       16000     16000 
+	   TimeExecute (s)      :     452                       
+	   TimeSlotBusy (s)     :     462                       
+...
+009 (1268630.000.000) 2025-07-21 20:32:02 Job was aborted.
+	via condor_rm (by user achihwan)
+...
+000 (1268685.000.000) 2025-07-21 20:32:18 Job submitted from host: <172.30.1.200:9618?addrs=172.30.1.200-9618&alias=tamsa2&noUDP&sock=schedd_2531_a24a>
+...
+040 (1268685.000.000) 2025-07-21 20:32:19 Started transferring input files
+	Transferring to host: <172.30.1.212:9618?addrs=172.30.1.212-9618&alias=node-w12.localdomain&noUDP&sock=slot1_27_4978_3384_110193>
+...
+040 (1268685.000.000) 2025-07-21 20:32:23 Finished transferring input files
+...
+001 (1268685.000.000) 2025-07-21 20:32:23 Job executing on host: <172.30.1.212:9618?addrs=172.30.1.212-9618&alias=node-w12.localdomain&noUDP&sock=startd_4944_c052>
+	SlotName: slot1_27@node-w12.localdomain
+	CondorScratchDir = "/var/lib/condor/execute/dir_620738"
+	Cpus = 2
+	Disk = 751616
+	GPUs = 0
+	Memory = 16000
+...
+006 (1268685.000.000) 2025-07-21 20:32:38 Image size of job updated: 894992
+	875  -  MemoryUsage of job (MB)
+	894992  -  ResidentSetSize of job (KB)
+...
+006 (1268685.000.000) 2025-07-21 20:37:38 Image size of job updated: 4757352
+	3401  -  MemoryUsage of job (MB)
+	3482136  -  ResidentSetSize of job (KB)
+...
+006 (1268685.000.000) 2025-07-21 20:47:38 Image size of job updated: 4757352
+	3427  -  MemoryUsage of job (MB)
+	3508256  -  ResidentSetSize of job (KB)
+...
+006 (1268685.000.000) 2025-07-21 20:52:38 Image size of job updated: 5121676
+	3427  -  MemoryUsage of job (MB)
+	3508256  -  ResidentSetSize of job (KB)
+...
+006 (1268685.000.000) 2025-07-21 21:12:40 Image size of job updated: 5242604
+	3427  -  MemoryUsage of job (MB)
+	3508256  -  ResidentSetSize of job (KB)
+...
+040 (1268685.000.000) 2025-07-21 21:23:39 Started transferring output files
+...
+040 (1268685.000.000) 2025-07-21 21:23:40 Finished transferring output files
+...
+005 (1268685.000.000) 2025-07-21 21:23:40 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:30:58, Sys 0 00:03:40  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:30:58, Sys 0 00:03:40  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	126678  -  Run Bytes Sent By Job
+	690294592  -  Run Bytes Received By Job
+	126678  -  Total Bytes Sent By Job
+	690294592  -  Total Bytes Received By Job
+	Partitionable Resources :      Usage  Request Allocated 
+	   Cpus                 :       0.85        2         2 
+	   Disk (KB)            : 2774590      750000    751616 
+	   GPUs                 :                             0 
+	   Memory (MB)          :    3427       16000     16000 
+	   TimeExecute (s)      :    3076                       
+	   TimeSlotBusy (s)     :    3081                       
+
+	Job terminated of its own accord at 2025-07-21T12:23:39Z with exit-code 0.
+...

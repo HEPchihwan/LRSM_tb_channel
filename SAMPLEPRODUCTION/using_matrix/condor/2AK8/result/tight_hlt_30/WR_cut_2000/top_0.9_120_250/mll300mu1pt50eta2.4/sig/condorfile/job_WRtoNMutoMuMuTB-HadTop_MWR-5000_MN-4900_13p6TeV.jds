@@ -1,0 +1,15 @@
+executable = /data6/Users/achihwan/LRSM_tb_channel/SAMPLEPRODUCTION/using_matrix/condor/2AK8/result/tight_hlt_30/WR_cut_2000/top_0.9_120_250/mll300mu1pt50eta2.4/sig/condorfile/job_WRtoNMutoMuMuTB-HadTop_MWR-5000_MN-4900_13p6TeV.sh
+log = /data6/Users/achihwan/LRSM_tb_channel/SAMPLEPRODUCTION/using_matrix/condor/2AK8/result/tight_hlt_30/WR_cut_2000/top_0.9_120_250/mll300mu1pt50eta2.4/sig/condorfile/WRtoNMutoMuMuTB-HadTop_MWR-5000_MN-4900_13p6TeV.log
+output = /data6/Users/achihwan/LRSM_tb_channel/SAMPLEPRODUCTION/using_matrix/condor/2AK8/result/tight_hlt_30/WR_cut_2000/top_0.9_120_250/mll300mu1pt50eta2.4/sig/condorfile/out/WRtoNMutoMuMuTB-HadTop_MWR-5000_MN-4900_13p6TeV.log
+error = /data6/Users/achihwan/LRSM_tb_channel/SAMPLEPRODUCTION/using_matrix/condor/2AK8/result/tight_hlt_30/WR_cut_2000/top_0.9_120_250/mll300mu1pt50eta2.4/sig/condorfile/err/WRtoNMutoMuMuTB-HadTop_MWR-5000_MN-4900_13p6TeV.err
+getenv = True
+should_transfer_files = yes
+RequestCpus = 2
+RequestMemory = 16000
+Transfer_Input_Files = /data6/Users/achihwan/LRSM_tb_channel/SAMPLEPRODUCTION/using_matrix/condor/1AK4_1AK8/result/btag_PN_tight_hlt_30/WR_cut_2000/top_0.9_120_250/mll300mu1pt50eta2.4/sig/SIGjson/WRtoNMutoMuMuTB-HadTop_MWR-5000_MN-4900_13p6TeV.json , /data6/Users/achihwan/LRSM_tb_channel/SAMPLEPRODUCTION/using_matrix/condor/2AK8/result/tight_hlt_30/WR_cut_2000/top_0.9_120_250/mll300mu1pt50eta2.4/sig/scripts/run_WRtoNMutoMuMuTB-HadTop_MWR-5000_MN-4900_13p6TeV.py,/data6/Users/achihwan/conda/hepenv.tar.gz
+transfer_output_files = result_WRtoNMutoMuMuTB-HadTop_MWR-5000_MN-4900_13p6TeV
+queue 
+
+
+
+

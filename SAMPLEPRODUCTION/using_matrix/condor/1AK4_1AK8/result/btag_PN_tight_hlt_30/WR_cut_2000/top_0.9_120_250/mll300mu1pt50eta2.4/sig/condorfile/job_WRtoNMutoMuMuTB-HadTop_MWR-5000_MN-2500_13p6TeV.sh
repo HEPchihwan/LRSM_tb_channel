@@ -5,6 +5,7 @@ echo "PYTHON: $(which python)"
 python run_WRtoNMutoMuMuTB-HadTop_MWR-5000_MN-2500_13p6TeV.py
 mkdir result_WRtoNMutoMuMuTB-HadTop_MWR-5000_MN-2500_13p6TeV 
 cp *.png result_WRtoNMutoMuMuTB-HadTop_MWR-5000_MN-2500_13p6TeV/
+cp *.csv result_WRtoNMutoMuMuTB-HadTop_MWR-5000_MN-2500_13p6TeV/
 cd result_WRtoNMutoMuMuTB-HadTop_MWR-5000_MN-2500_13p6TeV
 
 

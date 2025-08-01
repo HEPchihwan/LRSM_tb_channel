@@ -1,0 +1,15 @@
+executable = /data6/Users/achihwan/LRSM_tb_channel/SAMPLEPRODUCTION/using_matrix/condor/2AK8/result/tight_hlt_30/WR_cut_2000/top_0.9_120_250/mll300mu1pt50eta2.4/bkg/condorfile/job_WJets_MG.sh
+log = /data6/Users/achihwan/LRSM_tb_channel/SAMPLEPRODUCTION/using_matrix/condor/2AK8/result/tight_hlt_30/WR_cut_2000/top_0.9_120_250/mll300mu1pt50eta2.4/bkg/condorfile/log/WJets_MG.log
+output = /data6/Users/achihwan/LRSM_tb_channel/SAMPLEPRODUCTION/using_matrix/condor/2AK8/result/tight_hlt_30/WR_cut_2000/top_0.9_120_250/mll300mu1pt50eta2.4/bkg/condorfile/out/WJets_MG.log
+error = /data6/Users/achihwan/LRSM_tb_channel/SAMPLEPRODUCTION/using_matrix/condor/2AK8/result/tight_hlt_30/WR_cut_2000/top_0.9_120_250/mll300mu1pt50eta2.4/bkg/condorfile/err/WJets_MG.err
+getenv = True
+should_transfer_files = yes
+RequestCpus = 2
+RequestMemory = 16000
+Transfer_Input_Files = /data6/Users/achihwan/LRSM_tb_channel/SAMPLEPRODUCTION/using_matrix/background/ForSNU/WJets_MG.json , /data6/Users/achihwan/LRSM_tb_channel/SAMPLEPRODUCTION/using_matrix/condor/2AK8/result/tight_hlt_30/WR_cut_2000/top_0.9_120_250/mll300mu1pt50eta2.4/bkg/scripts/run_WJets_MG.py,/data6/Users/achihwan/conda/hepenv.tar.gz
+transfer_output_files = result_WJets_MG
+queue 
+
+
+
+

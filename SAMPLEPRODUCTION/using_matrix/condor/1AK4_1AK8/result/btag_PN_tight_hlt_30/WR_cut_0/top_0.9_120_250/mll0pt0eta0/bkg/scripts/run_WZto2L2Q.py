@@ -285,6 +285,8 @@ def ak8ak4(sample):
     ptt = ak.sum(leading_toptag_ak8["pt"], axis=1)
     eta1 =ak.sum(first_muon_cleaned["eta"], axis=1)
     eta2 = ak.sum(second_muon_cleaned["eta"], axis=1)
+    etat = ak.sum(leading_toptag_ak8["eta"], axis=1)
+    etab = ak.sum(leading_tagged_bjet["eta"], axis=1)
 
     hlt = events["HLT_IsoMu30"].array()
     evt_mask = (
@@ -295,6 +297,8 @@ def ak8ak4(sample):
     hlt_mask = (
         (pt1 > 0) & (pt2 > 0) &
         (ptb > 0) & (ptt > 0) & (hlt==True)
+        & (abs(eta1) < 2.4) & (abs(eta2) < 2.4)
+        & (abs(etab) < 2.5) & (abs(etat) < 2.5)
     )
     lmi = leading_muon_iso[hlt_mask]
     lmhpt = leading_muon_hpt[hlt_mask]
@@ -313,7 +317,14 @@ def ak8ak4(sample):
     fm2 = fm2[mll_mask]
     lb  = lb[mll_mask]
     lt  = lt[mll_mask]
-
+    # mwr mass cut
+    mwr = (fm1 + fm2 + lb + lt).mass
+    mwr_mask = mwr > 0
+    fm1 = fm1[mwr_mask]
+    fm2 = fm2[mwr_mask]
+    lb  = lb[mwr_mask]
+    lt  = lt[mwr_mask]
+    mll = (fm1 + fm2).mass
     # Final vars
     combined_p4   = (fm1 + fm2 + lb + lt).mass
     mN            = (fm1 + lb + lt).mass
@@ -431,7 +442,9 @@ def compute_expected_events(sample_info, iter_allfile, lumi_fb):
         ptmu2 = Npass[3]
         ptt = Npass[4]
         ptb = Npass[5]
-        Npass = (Npass[13])
+        tot = Npass[11]
+        Npass = ak.flatten(mwr, axis=None)
+        Npass = len(Npass)  # Npass는 통과 이벤트 개수
         
     elif isinstance(p, str):
         # 문자열이 디렉터리인지 파일인지 상관없이 그대로 넘김
@@ -442,7 +455,9 @@ def compute_expected_events(sample_info, iter_allfile, lumi_fb):
         ptmu2 = Npass[3]
         ptt = Npass[4]
         ptb = Npass[5]
-        Npass = (Npass[13])
+        tot = Npass[11]
+        Npass = ak.flatten(mwr, axis=None)
+        Npass = len(Npass)  # Npass는 통과 이벤트 개수
     else:
 
         raise ValueError(f"Unexpected type for sample_info['path']: {type(p)}")
@@ -450,7 +465,7 @@ def compute_expected_events(sample_info, iter_allfile, lumi_fb):
     # 2) per-event normalization weight 계산 (pb→fb 변환 위해 *1000)
     xsec_pb = sample_info["xsec"]
     sumW    = sample_info["sumW"]
-    w_evt   = xsec_pb * 1000 * lumi_fb / sumW
+    w_evt   = xsec_pb * lumi_fb / sumW
 
     # 3) 기대 이벤트 수
     Nexp = Npass * w_evt
@@ -467,7 +482,9 @@ print(f"Per-event weight : {res['w_evt']}")
 print(f"Expected yield   : {res['Nexp']} events at {lumi} fb^-1")
 
 fig, ax = plt.subplots()
-ax.hist(ak.flatten(res["WRmass"]), bins=100, range=(0, 8000),
+flat = ak.flatten(res["WRmass"], axis=None)   # 1차원으로 모두 펼치기
+mass_list = flat.tolist()  
+ax.hist(mass_list, bins=100, range=(0, 8000),
         histtype='step', label='WR mass')
 
 # 2) 레이블, 범례
@@ -502,7 +519,9 @@ plt.close()
 print(f"Saved histogram to {out_filename}")
 
 plt.figure()
-plt.hist(ak.flatten(res["mll"]), bins=100, range=(0, 8000), histtype='step', label='ll reco')
+flat = ak.flatten(res["mll"], axis=None)   # 1차원으로 모두 펼치기
+mll_list = flat.tolist()
+plt.hist(mll_list, bins=100, range=(0, 8000), histtype='step', label='ll reco')
 plt.xlabel('mll [GeV]')
 plt.ylabel('Entries')
 plt.legend()
@@ -513,8 +532,12 @@ plt.close()
 print(f"Saved histogram to {out_filename}")
 
 plt.figure()
-plt.hist(ak.flatten(res["ptmu1"]), bins=100, range=(0, 8000), histtype='step', label='mu1 reco')
-plt.hist(ak.flatten(res["ptmu2"]), bins=100, range=(0, 8000), histtype='step', label='mu2 reco')
+flat = ak.flatten(res["ptmu1"], axis=None)   # 1차원으로 모두 펼치기
+ptmu1_list = flat.tolist()
+plt.hist(ptmu1_list, bins=100, range=(0, 8000), histtype='step', label='mu1 reco')
+flat = ak.flatten(res["ptmu2"], axis=None)   # 1차원으로 모두 펼치기
+ptmu2_list = flat.tolist()
+plt.hist(ptmu2_list, bins=100, range=(0, 8000), histtype='step', label='mu2 reco')
 plt.xlabel('pt [GeV]')
 plt.ylabel('Entries')
 plt.legend()
@@ -525,8 +548,12 @@ plt.close()
 print(f"Saved histogram to {out_filename}")
 
 plt.figure()
-plt.hist(ak.flatten(res["ptt"]), bins=100, range=(0, 8000), histtype='step', label='t reco')
-plt.hist(ak.flatten(res["ptb"]), bins=100, range=(0, 8000), histtype='step', label='b reco')
+flat = ak.flatten(res["ptt"], axis=None)   # 1차원으로 모두 펼치기
+ptt_list = flat.tolist()
+plt.hist(ptt_list, bins=100, range=(0, 8000), histtype='step', label='t reco')
+flat = ak.flatten(res["ptb"], axis=None)   # 1차원으로 모두 펼치기
+ptb_list = flat.tolist()
+plt.hist(ptb_list, bins=100, range=(0, 8000), histtype='step', label='b reco')
 plt.xlabel('pt [GeV]')
 plt.ylabel('Entries')
 plt.legend()
@@ -534,3 +561,98 @@ out_filename = 'ptt_ptb_histogram.png'
 plt.savefig(out_filename, dpi=150, bbox_inches='tight')
 plt.close()
 print(f"Saved histogram to {out_filename}")
+
+
+import numpy as np
+import pandas as pd
+
+## wr mass 
+flat = ak.flatten(res["WRmass"], axis=None)   # 1차원으로 모두 펼치기
+values = np.array(flat)
+bins = [0, 800,1000, 1200, 1600, 2000, 2500, 3000, 4000,5000, np.inf]
+counts, _ = np.histogram(values, bins=bins)
+counts = counts* res["w_evt"]  # 가중치 적용
+bin_labels = [f"{bins[i]}–{bins[i+1]}" for i in range(len(bins)-1)]
+# DataFrame으로 만들기
+df = pd.DataFrame({
+    "mass_bin": bin_labels,
+    "count": counts
+})
+# CSV로 저장 (헤더 포함, 인덱스는 제외)
+df.to_csv("wrmass_counts.csv", index=False)
+
+## ll mass 
+flat = ak.flatten(res["mll"], axis=None)   # 1차원으로 모두 펼치기
+values = np.array(flat)
+bins = [0, 100, 200 ,300, 400, 500, 600, 700, 800, 900, 1000,1500,2000, np.inf]
+counts, _ = np.histogram(values, bins=bins)
+counts = counts* res["w_evt"]  # 가중치 적용
+bin_labels = [f"{bins[i]}–{bins[i+1]}" for i in range(len(bins)-1)]
+# DataFrame으로 만들기
+df = pd.DataFrame({
+    "mass_bin": bin_labels,
+    "count": counts
+})
+# CSV로 저장 (헤더 포함, 인덱스는 제외)
+df.to_csv("mll_counts.csv", index=False)    
+
+## mu1 pt
+flat = ak.flatten(res["ptmu1"], axis=None)   # 1차원으로 모두 펼치기
+values = np.array(flat)
+bins = [0,50,100,150,200,250,450,650,850,1000,1500,2000,np.inf]
+counts, _ = np.histogram(values, bins=bins)
+counts = counts* res["w_evt"]  # 가중치 적용
+bin_labels = [f"{bins[i]}–{bins[i+1]}" for i in range(len(bins)-1)]
+# DataFrame으로 만들기
+df = pd.DataFrame({
+    "pt_bin": bin_labels,
+    "count": counts
+})
+# CSV로 저장 (헤더 포함, 인덱스는 제외)
+df.to_csv("ptmu1_counts.csv", index=False)
+
+## mu2 pt
+flat = ak.flatten(res["ptmu2"], axis=None)   # 1차원으로 모두 펼치기
+values = np.array(flat)
+bins = [0,50,100,150,200,250,450,650,850,1000,1500,2000,np.inf]
+counts, _ = np.histogram(values, bins=bins)
+counts = counts* res["w_evt"]  # 가중치 적용
+bin_labels = [f"{bins[i]}–{bins[i+1]}" for i in range(len(bins)-1)]
+# DataFrame으로 만들기
+df = pd.DataFrame({
+    "pt_bin": bin_labels,
+    "count": counts
+})
+# CSV로 저장 (헤더 포함, 인덱스는 제외)
+df.to_csv("ptmu2_counts.csv", index=False)
+
+## t pt
+flat = ak.flatten(res["ptt"], axis=None)   # 1차원으로 모두 펼치기
+values = np.array(flat)
+bins = [0,50,100,150,200,250,300,350,550,750,950,1150,1350,1550,np.inf]
+counts, _ = np.histogram(values, bins=bins)
+counts = counts* res["w_evt"]  # 가중치 적용
+bin_labels = [f"{bins[i]}–{bins[i+1]}" for i in range(len(bins)-1)]
+# DataFrame으로 만들기
+df = pd.DataFrame({
+    "pt_bin": bin_labels,
+    "count": counts
+})
+# CSV로 저장 (헤더 포함, 인덱스는 제외)
+df.to_csv("ptt_counts.csv", index=False)
+
+## b pt
+flat = ak.flatten(res["ptb"], axis=None)   # 1차원으로 모두 펼치기
+values = np.array(flat)
+bins = [0,50,100,150,200,250,300,350,550,750,950,1150,1350,1550,np.inf]
+counts, _ = np.histogram(values, bins=bins)
+counts = counts* res["w_evt"]  # 가중치 적용
+bin_labels = [f"{bins[i]}–{bins[i+1]}" for i in range(len(bins)-1)]
+# DataFrame으로 만들기
+df = pd.DataFrame({
+    "pt_bin": bin_labels,
+    "count": counts
+})
+# CSV로 저장 (헤더 포함, 인덱스는 제외)
+df.to_csv("ptb_counts.csv", index=False)
+

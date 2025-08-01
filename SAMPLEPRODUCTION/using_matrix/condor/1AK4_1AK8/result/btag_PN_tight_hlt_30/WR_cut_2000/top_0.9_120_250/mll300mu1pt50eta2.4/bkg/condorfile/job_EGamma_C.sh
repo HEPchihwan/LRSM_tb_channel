@@ -5,6 +5,7 @@ echo "PYTHON: $(which python)"
 python run_EGamma_C.py
 mkdir result_EGamma_C 
 cp *.png result_EGamma_C/
+cp *.csv result_EGamma_C/
 cd result_EGamma_C
 
 

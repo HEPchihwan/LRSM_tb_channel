@@ -5,6 +5,7 @@ echo "PYTHON: $(which python)"
 python run_SingleMuon_C.py
 mkdir result_SingleMuon_C 
 cp *.png result_SingleMuon_C/
+cp *.csv result_SingleMuon_C/
 cd result_SingleMuon_C
 
 

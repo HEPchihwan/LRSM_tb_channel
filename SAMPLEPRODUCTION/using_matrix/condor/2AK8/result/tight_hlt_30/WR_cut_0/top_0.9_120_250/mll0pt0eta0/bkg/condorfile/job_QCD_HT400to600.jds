@@ -1,0 +1,15 @@
+executable = /data6/Users/achihwan/LRSM_tb_channel/SAMPLEPRODUCTION/using_matrix/condor/2AK8/result/tight_hlt_30/WR_cut_0/top_0.9_120_250/mll0pt0eta0/bkg/condorfile/job_QCD_HT400to600.sh
+log = /data6/Users/achihwan/LRSM_tb_channel/SAMPLEPRODUCTION/using_matrix/condor/2AK8/result/tight_hlt_30/WR_cut_0/top_0.9_120_250/mll0pt0eta0/bkg/condorfile/log/QCD_HT400to600.log
+output = /data6/Users/achihwan/LRSM_tb_channel/SAMPLEPRODUCTION/using_matrix/condor/2AK8/result/tight_hlt_30/WR_cut_0/top_0.9_120_250/mll0pt0eta0/bkg/condorfile/out/QCD_HT400to600.log
+error = /data6/Users/achihwan/LRSM_tb_channel/SAMPLEPRODUCTION/using_matrix/condor/2AK8/result/tight_hlt_30/WR_cut_0/top_0.9_120_250/mll0pt0eta0/bkg/condorfile/err/QCD_HT400to600.err
+getenv = True
+should_transfer_files = yes
+RequestCpus = 2
+RequestMemory = 16000
+Transfer_Input_Files = /data6/Users/achihwan/LRSM_tb_channel/SAMPLEPRODUCTION/using_matrix/background/ForSNU/QCD_HT400to600.json , /data6/Users/achihwan/LRSM_tb_channel/SAMPLEPRODUCTION/using_matrix/condor/2AK8/result/tight_hlt_30/WR_cut_0/top_0.9_120_250/mll0pt0eta0/bkg/scripts/run_QCD_HT400to600.py,/data6/Users/achihwan/conda/hepenv.tar.gz
+transfer_output_files = result_QCD_HT400to600
+queue 
+
+
+
+
